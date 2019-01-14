@@ -15,16 +15,5 @@
         <module name="portal" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="commons" target="1.8" />
-      <module name="manager" target="1.8" />
-      <module name="manager-dao" target="1.8" />
-      <module name="manager-pojo" target="1.8" />
-      <module name="manager-service" target="1.8" />
-      <module name="manager-serviceimpl" target="1.8" />
-      <module name="manager-web" target="1.8" />
-      <module name="parent" target="1.8" />
-      <module name="portal" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
