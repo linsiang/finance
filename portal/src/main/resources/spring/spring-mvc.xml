@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+">
+    <!--扫描web层的注解类,以下注解是为了扫描这个注解：@Controller-->
+    <context:component-scan base-package="com.qf.portal.web"/>
+    <!--@RequestMapping @ResponseBody jackson转换成JSON-->
+    <!--为了解决json存在中文乱码问题-->
+    <mvc:annotation-driven>
+        <mvc:message-converters>
+            <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"/>
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <property name="supportedMediaTypes">
+                    <list>
+                        <value>text/plain;charset=UTF-8</value>
+                        <value>text/html;charset=UTF-8</value>
+                    </list>
+                </property>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+
+    <!--配置视图解析器 Controller  hello(){return "index"}  转发：/WEB-INF/jsp/index.jsp -->
+
+    <bean class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+        <property name="viewClass" value="org.springframework.web.servlet.view.InternalResourceView"/>
+    </bean>
+    <!--静态资源放行，凡是页面上访问static这些静态文件时候，都不经过controller-->
+    <!--url路径如下：http://localhost:81/manager/static/css/hello.css-->
+    <!--静态资源放行：http://localhost:81/manager/static/css/hello.css本来是要经过contrller,但是配置了这句话，配置完了以后，直接去寻找webapp/static/css/hello.css-->
+    <mvc:resources mapping="/static/**" location="/static/"/>
+</beans>
