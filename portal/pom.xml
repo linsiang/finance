@@ -44,6 +44,7 @@
     </dependencies>
 
     <build>
+        <!--编译Java下面的所有的xml文件-->
         <finalName>portal</finalName>
         <resources>
             <resource>

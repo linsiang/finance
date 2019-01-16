@@ -79,7 +79,8 @@
                         class="icon_coupon"></span></a></li>
                 <li style="display:none;" sid=""><a href="http://jia.elong.com/" id="nav_apartment"
                                                     title="短租公寓">短租公寓<span class="icon_apart"
-                                                                           style="background: url(static/images/icon2015-0.png) no-repeat; background-position: -307px 0;"></span></a>
+                                                                           style="background: url(
+                                                                           static/images/icon2015-0.png) no-repeat; background-position: -307px 0;"></span></a>
                 </li>
                 <li style="display:none;" sid="52756"><a href="http://qiang.elong.com" title="限时抢">限时抢</a>
                 <li sid="28640"><a href="http://flight.elong.com/" title="机票预订">国内•国际机票<span
@@ -196,6 +197,7 @@
         <ul class="pic_show">
             <li style="display: block;"><a href="#" target="_blank"
                                            style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-17-AA2SFAAFOWLyzwMI307.jpg) no-repeat center bottom;"></a>
+
             </li>
             <li style="display: none;">
                 <a href="#" target="_blank"
@@ -205,6 +207,7 @@
                 <a href="#" target="_blank"
                    style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-10aAFSaMAAFbaZd8xmg267.jpg) no-repeat center bottom;"></a>
             </li>
+
             <li style="display: none;">
                 <a href="#" target="_blank"
                    style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-14OAYqVLAAHDZnOFGWM761.jpg) no-repeat center bottom;">
