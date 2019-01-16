@@ -31,15 +31,13 @@
         </mvc:message-converters>
     </mvc:annotation-driven>
 
-    <!--配置视图解析器 Controller  hello(){return "index"}  转发：/WEB-INF/jsp/index.jsp -->
 
+   <!--配置视图解析-->
     <bean class="org.springframework.web.servlet.view.UrlBasedViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/"/>
         <property name="suffix" value=".jsp"/>
         <property name="viewClass" value="org.springframework.web.servlet.view.InternalResourceView"/>
     </bean>
-    <!--静态资源放行，凡是页面上访问static这些静态文件时候，都不经过controller-->
-    <!--url路径如下：http://localhost:81/manager/static/css/hello.css-->
-    <!--静态资源放行：http://localhost:81/manager/static/css/hello.css本来是要经过contrller,但是配置了这句话，配置完了以后，直接去寻找webapp/static/css/hello.css-->
+    <!--静态资源放行-->
     <mvc:resources mapping="/static/**" location="/static/"/>
 </beans>

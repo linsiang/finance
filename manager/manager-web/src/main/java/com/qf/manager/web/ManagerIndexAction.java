@@ -38,6 +38,7 @@ public class ManagerIndexAction {
            map.put("msg","success");
            Map<String,Object> date = new HashMap();
            date.put("src",basePath+"/"+shortName);
+           System.out.println(basePath+"/"+shortName);
            map.put("data",date);
 
        }else{
