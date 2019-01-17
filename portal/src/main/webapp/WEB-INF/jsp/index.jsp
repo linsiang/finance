@@ -192,7 +192,7 @@
     <!-- banner advInfos start -->
     <div class="banner_wrap">
         <ul class="pic_show">
-            <c:forEach begin="1" end="${list.size()}" items="${list}" var="url" varStatus="i" >
+            <c:forEach begin="0" end="${list.size()-1}" items="${list}" var="url" varStatus="i" >
 
                 <li style="display: block;"><a href="#" target="_blank"
                                                style="background:url( ${url.url}) no-repeat center bottom;"></a>

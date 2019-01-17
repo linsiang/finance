@@ -26,19 +26,24 @@ public class PicUrlServiceImpl  implements PicUrlService {
     @Override
     public List<Picurl> listUrlById(String id) {
        try{
+           //xian cong haun cun limain na ,you jiu zhijie fanhui
         String pic_list = jedisClient.hget("PIC_LIST",id);
         if(StrKit.notBlank(pic_list)){
             List<Picurl> picurls = JsonUtils.jsonToList(pic_list,Picurl.class);
+            System.out.println("=============>我从缓存中拿了数据");
             return picurls;
         }
        } catch (RuntimeException re){
 
         logger.error(re.getMessage(),re);
        }
-        PicurlExample example = new PicurlExample();
+
+//       fou ze  jiu cong shu ju ku li mian na
+       PicurlExample example = new PicurlExample();
        PicurlExample.Criteria criteria = example.createCriteria();
        criteria.andIdEqualTo(id);
-      List<Picurl> list = picurlMapper.selectByExample(example);
+       List<Picurl> list = picurlMapper.selectByExample(example);
+       System.out.println("GG ,-_-| -_-| -__-| -_-| 我没有从缓存中拿到数据 ");
 try{
     jedisClient.hset("PIC_LIST",id,JsonUtils.objectToJson(list));
 }catch (RuntimeException e){
