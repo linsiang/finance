@@ -16,13 +16,13 @@ import java.util.List;
 public class PictureUrlAction {
         @Autowired
     PicUrlService picUrlService;
-        @GetMapping("/showPic")
+        @GetMapping("/index")
         public String showPic(Model model){
             String id = PropKit.use("page.properties").get("id");
             List<Picurl> list = picUrlService.listUrlById(id);
             System.out.println(list);
             model.addAttribute("list", list);
-            return "test";
+            return "index";
         }
 
     @GetMapping("/{page}")

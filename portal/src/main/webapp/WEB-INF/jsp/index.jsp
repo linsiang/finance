@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -36,11 +37,7 @@
 <body>
 
 
-<h1>
 
-    I am fucking coming
-
-</h1>
 
 <!-- ===================== header 2018-12-18 start ===================== -->
 <div id="header" class="header" v='20181218' b='hotels' g='NaN' lg='f'>
@@ -195,39 +192,43 @@
     <!-- banner advInfos start -->
     <div class="banner_wrap">
         <ul class="pic_show">
-            <li style="display: block;"><a href="#" target="_blank"
-                                           style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-17-AA2SFAAFOWLyzwMI307.jpg) no-repeat center bottom;"></a>
+            <c:forEach begin="1" end="${list.size()}" items="${list}" var="url" varStatus="i" >
 
-            </li>
-            <li style="display: none;">
-                <a href="#" target="_blank"
-                   style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-12KANsNiAAEi8ff7IN8982.jpg) no-repeat center bottom;"></a>
-            </li>
-            <li style="display: none;">
-                <a href="#" target="_blank"
-                   style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-10aAFSaMAAFbaZd8xmg267.jpg) no-repeat center bottom;"></a>
-            </li>
+                <li style="display: block;"><a href="#" target="_blank"
+                                               style="background:url( ${url.url}) no-repeat center bottom;"></a>
+                </li>
+            </c:forEach>
 
-            <li style="display: none;">
-                <a href="#" target="_blank"
-                   style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-14OAYqVLAAHDZnOFGWM761.jpg) no-repeat center bottom;">
 
-                </a></li>
-            <li style="display: none;"><a href="#" target="_blank"
-                                          style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-12yAfsFLAAD6yi7k4D8000.jpg) no-repeat center bottom;">
+            <%--<li style="display: none;">--%>
+                <%--<a href="#" target="_blank"--%>
+                   <%--style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-12KANsNiAAEi8ff7IN8982.jpg) no-repeat center bottom;"></a>--%>
+            <%--</li>--%>
+            <%--<li style="display: none;">--%>
+                <%--<a href="#" target="_blank"--%>
+                   <%--style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-10aAFSaMAAFbaZd8xmg267.jpg) no-repeat center bottom;"></a>--%>
+            <%--</li>--%>
 
-            </a></li>
-            <li style="display: none;"><a href="#" target="_blank"
-                                          style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-13KAK_QMAAE4Du0C3Nk561.jpg) no-repeat center bottom;"></a>
-            </li>
-            <li style="display: none;">
-                <a href="#" target="_blank"
-                   style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-13aAdQvSAAEToOHBVHw729.jpg) no-repeat center bottom;"></a>
-            </li>
-            <li style="display: none;">
-                <a href="#" target="_blank"
-                   style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-13yASawqAAE3PUBKTYo980.jpg) no-repeat center bottom;"></a>
-            </li>
+            <%--<li style="display: none;">--%>
+                <%--<a href="#" target="_blank"--%>
+                   <%--style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-14OAYqVLAAHDZnOFGWM761.jpg) no-repeat center bottom;">--%>
+
+                <%--</a></li>--%>
+            <%--<li style="display: none;"><a href="#" target="_blank"--%>
+                                          <%--style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-12yAfsFLAAD6yi7k4D8000.jpg) no-repeat center bottom;">--%>
+
+            <%--</a></li>--%>
+            <%--<li style="display: none;"><a href="#" target="_blank"--%>
+                                          <%--style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-13KAK_QMAAE4Du0C3Nk561.jpg) no-repeat center bottom;"></a>--%>
+            <%--</li>--%>
+            <%--<li style="display: none;">--%>
+                <%--<a href="#" target="_blank"--%>
+                   <%--style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-13aAdQvSAAEToOHBVHw729.jpg) no-repeat center bottom;"></a>--%>
+            <%--</li>--%>
+            <%--<li style="display: none;">--%>
+                <%--<a href="#" target="_blank"--%>
+                   <%--style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-13yASawqAAE3PUBKTYo980.jpg) no-repeat center bottom;"></a>--%>
+            <%--</li>--%>
         </ul>
     </div>
     <!-- banner advInfos end -->
