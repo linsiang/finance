@@ -20,7 +20,8 @@ public class PictureUrlAction {
         public String showPic(Model model){
             String id = PropKit.use("page.properties").get("id");
             List<Picurl> list = picUrlService.listUrlById(id);
-            System.out.println(list);
+//            test for list
+//            System.out.println(list);
             model.addAttribute("list", list);
             return "index";
         }

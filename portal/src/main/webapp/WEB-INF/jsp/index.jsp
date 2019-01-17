@@ -33,6 +33,7 @@
     <link rel="stylesheet" type="text/css" href="static/css/train.css"/>
     <link rel="stylesheet" type="text/css" href="static/css/flight.css"/>
     <link rel="stylesheet" type="text/css" href="static/css/common_index.css"/>
+    <script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
 </head>
 <body>
 
