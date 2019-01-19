@@ -42,51 +42,12 @@
 
 <!-- ===================== header 2018-12-18 start ===================== -->
 <div id="header" class="header" v='20181218' b='hotels' g='NaN' lg='f'>
-    <div class="header_top response_wrap3 clearfix" style="width: 1200px;">
-        <div class="logo"><a href="http://www.elong.com" title="艺龙旅行网">艺龙旅行网</a></div>
-        <div class="right mt5">
-            <div class="branch_menu left mr10"><span><a href="http://imall.elong.com/" rel="nofollow">里程商城</a></span>
-                <b></b> <span class='online-customer'><a target='_blank' href='http://my.elong.com/kf/index?g=31878'
-                                                         rel='nofollow'>在线客服</a></span> <b></b><span class=""><a
-                        target="_blank" href="http://my.elong.com/helpCenter/index" rel="nofollow">帮助中心</a></span>
-                <b></b><span class='language' method="newSpanLang"> <a href="#?" method="eng">English</a><i
-                        class='com_icon04 left'></i><p><a
-                        href="http://hotel.elong.com/trans2cn/?target=http://hotel.elong.com" title="简体版"
-                        rel="nofollow">简体版</a> <a href="http://hotel.elong.com/trans2tw/?target=http://hotel.elong.com"
-                                                  rel="nofollow" title="繁體版">繁体版</a></p> </span></div>
-            <span class="one_panic one_panicxcx mr10 left"> <i class="com_iconxcx left"></i> <em>小程序</em> <em>体验更轻盈</em> <div
-                    class="only_xcx"> <i class="com_arrow_xcx"></i> </div> </span> <a class='one_panic mr10 left'
-                                                                                      href="http://promotion.elong.com/index/cn/2016/elong_app_down/index.html"
-                                                                                      rel="nofollow" target="_blank"><i
-                class='com_icon01 left'></i><em>手机版</em><em method="newPromotion">专享五折起</em>
-            <div class="only_phone" method="onlyPhoneDiv" style="display: none"><i class="com_arrow_tl"></i></div>
-        </a> <span class="online_phone left"> <i class='com_icon02 left'></i> <em>7&#215;24 客服电话</em><b class=''
-                                                                                                        method='newPhoneNo'><i
-                class='com_icon03 right'></i>95711</b> <div class="on_phonnum" method="newPhoneDiv"> <i
-                class="com_arrow_tl"></i> <ul> <!--当鼠标移入时显示--> <li><p>国内：95711</p></li> <li><p>香港：852-8131-8883</p> <p
-                class="ti3">852-8131-8983</p></li> <li class="last"><p>海外：86-10-6432-9999</p></li> </ul> </div> </span>
-        </div>
-    </div> <!--导航-->
+
     <div class="nav_box">
         <div id="nav" class="response_wrap3" style="width: 1200px;">
             <ul class="link" id="channelMenu">
                 <li sid="28632"><a href="http://www.elong.com" title="艺龙旅行网" id="nav_home">首页</a></li>
-                <li sid="28639" class="on"><a title="酒店预订" href="http://hotel.elong.com/" id="nav_hotels">国内酒店</a></li>
-                <li style="display:none;" sid="41493"><a href="http://tuan.elong.com/" id="A1" title="酒店团购">团购</a></li>
-                <li sid="28642"><a href="http://ihotel.elong.com/" id="nav_hotelsw" title="国际•港澳台酒店">国际•港澳台酒店<span
-                        class="icon_coupon"></span></a></li>
-                <li style="display:none;" sid=""><a href="http://jia.elong.com/" id="nav_apartment"
-                                                    title="短租公寓">短租公寓<span class="icon_apart"
-                                                                           style="background: url(
-                                                                           static/images/icon2015-0.png) no-repeat; background-position: -307px 0;"></span></a>
-                </li>
-                <li style="display:none;" sid="52756"><a href="http://qiang.elong.com" title="限时抢">限时抢</a>
-                <li sid="28640"><a href="http://flight.elong.com/" title="机票预订">国内•国际机票<span
-                        style="left: 60px; background-position: -589px -29px; " class="icon_coupon"></span></a></li>
-                <li sid="28640"><a href="http://m.elongstatic.com/static/webapp/train/website/railway.html" title="火车票">火车票</a>
-                </li>
-                <li sid="28640"><a href="http://bus.elong.com/ly" title="汽车票">汽车票</a></li>
-                <li><a href="http://trip.elong.com/" title="旅游指南">旅游指南</a></li>
+
             </ul>
             <div class="account" method="dvAccount"><input type="hidden" id="hidden_memberid_user" value=""/> <input
                     type="hidden" id="hidden_user_name" value=""/>
@@ -201,35 +162,6 @@
             </c:forEach>
 
 
-            <%--<li style="display: none;">--%>
-                <%--<a href="#" target="_blank"--%>
-                   <%--style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-12KANsNiAAEi8ff7IN8982.jpg) no-repeat center bottom;"></a>--%>
-            <%--</li>--%>
-            <%--<li style="display: none;">--%>
-                <%--<a href="#" target="_blank"--%>
-                   <%--style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-10aAFSaMAAFbaZd8xmg267.jpg) no-repeat center bottom;"></a>--%>
-            <%--</li>--%>
-
-            <%--<li style="display: none;">--%>
-                <%--<a href="#" target="_blank"--%>
-                   <%--style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-14OAYqVLAAHDZnOFGWM761.jpg) no-repeat center bottom;">--%>
-
-                <%--</a></li>--%>
-            <%--<li style="display: none;"><a href="#" target="_blank"--%>
-                                          <%--style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-12yAfsFLAAD6yi7k4D8000.jpg) no-repeat center bottom;">--%>
-
-            <%--</a></li>--%>
-            <%--<li style="display: none;"><a href="#" target="_blank"--%>
-                                          <%--style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-13KAK_QMAAE4Du0C3Nk561.jpg) no-repeat center bottom;"></a>--%>
-            <%--</li>--%>
-            <%--<li style="display: none;">--%>
-                <%--<a href="#" target="_blank"--%>
-                   <%--style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-13aAdQvSAAEToOHBVHw729.jpg) no-repeat center bottom;"></a>--%>
-            <%--</li>--%>
-            <%--<li style="display: none;">--%>
-                <%--<a href="#" target="_blank"--%>
-                   <%--style="background:url(http://47.110.72.50/group1/M00/00/00/rBCVGVw-13yASawqAAE3PUBKTYo980.jpg) no-repeat center bottom;"></a>--%>
-            <%--</li>--%>
         </ul>
     </div>
     <!-- banner advInfos end -->
@@ -457,7 +389,7 @@
                     class=pr10 href="javascript:void(0);" style="cursor:text;">目的地指数</a>
                 <span>覆盖全球75万家酒店，你想住的，我们都有</span></h2></div><!--国内-->
         <div class=domestic>
-            <h3 class=clearfix><em class="more right"><a href="http://hotel.elong.com/">更多<b>&gt;&gt;</b></a></em> <a
+            <h3 class=clearfix><em class="more right"></em> <a
                     class="pr20 left" href="http://hotel.elong.com/"><i class="ei_icon icon06 left pr5"></i>国内</a> <span
                     class=on>登高踏青</span> <span>小憩温泉</span> <span>天然氧吧</span> <span>草原撒欢</span> <span>小镇时光</span> <span>美食之城</span>
             </h3>
@@ -715,7 +647,7 @@
             </ul>
         </div><!--国内--><!--国际-->
         <div class="domestic mt20">
-            <h3 class=clearfix><em class="more right"><a href="http://ihotel.elong.com/">更多<b>&gt;&gt;</b></a></em> <a
+            <h3 class=clearfix><em class="more right"></em> <a
                     class="pr20 left" href="http://ihotel.elong.com/"><i class="ei_icon icon062 left pr5"></i>海外</a>
                 <span class=on>文艺清新</span> <span>面朝大海</span> <span>别样建筑</span> <span>浪漫主义</span> <span>魅力都市</span></h3>
             <ul class=tab_theme>
@@ -928,7 +860,7 @@
         <!--机票 -->
         <div class="discount_tricket mt10" id="discount_plane_tricket">
             <h3 class="clearfix">
-                <em class="more right"><a href="//flight.elong.com/" target="_blank">更多<b>&gt;&gt;</b></a></em> <a
+                <em class="more right"></em> <a
                     class="pr20 left"
                     href="//flight.elong.com/" target="_blank"><i class="ei_icon icon07 left pr5"></i>机票</a>
                 <span csn="BJS" class="on">北京出发</span>
@@ -1017,15 +949,7 @@
                 <li><i class="ei_icon icon015"></i><span>7×24小时服务</span></li>
             </ul>
         </div>
-        <!--
-        <div class="booking_email clearfix">
-        <div class="service_agreement right">
-        <a href="http://promotion.elong.com/index/agreement/index.html" target="_blank">艺龙服务协议</a>
-        </div>
-        <div class="ei_icon icon016 left"></div>
-        <div class="input_email"> <span>亲，留下您的邮箱，会有惊喜呦~</span> <em><input type="text" value="请输入您的E-mail" id="email"></em> <b><input type="button" value="立即订阅" id="btnSubEmail"></b> </div>
-        </div>
-        -->
+
     </div>
 </div>
 <!--why us-->
@@ -1175,405 +1099,17 @@ if (s_code) document.write(s_code);</script>
 
 <script>require(['http://www.elongstatic.com/ihotelStatic/js/common_index.js'], function () {
 })</script>
-<!-- ===================== footer 0111 start ===================== -->
+
 <div class="clear"></div>
 <div class="footer" r="3">
     <div class="footer_info">
         <dl>
-            <dt>加盟合作</dt>
-            <dd><a href="http://hotel.elong.com/union/join.html#?" title="酒店加盟" rel="nofollow">酒店加盟</a></dd>
-            <dd><a href="http://open.elong.com/" title="机票酒店分销联盟" rel="nofollow">开放平台</a></dd>
-            <dd><a href="http://promotion.elong.com/hotel/cn/elongagent/elongagent.html " title="旅游产品代理合作"
-                   rel="nofollow">代理合作</a></dd>
-            <dd><a href="http://promotion.elong.com/web/adservice/adservice.html" title="在线广告服务" rel="nofollow">广告服务</a>
-            </dd>
-            <dd><a href="http://ebooking.elong.com/ebkauth/login" title="艺龙商家中心" rel="nofollow">商家中心</a></dd>
-        </dl>
-        <dl>
-            <dt>关于艺龙</dt>
-            <dd><a href="http://hotel.elong.com/directory/" title="酒店大全">酒店大全</a></dd>
-            <dd><a href="http://ihotel.elong.com/sitemap/" title="国际酒店">国际酒店</a></dd>
-            <dd><a href="http://promotion.elong.com/web/insurance/index.html" title="旅行保险">旅行保险</a></dd>
-            <dd><a href="http://promotion.elong.com/index/cn/campus/index.html" title="校园招聘" rel="nofollow">校园招聘</a>
-            </dd>
-            <dd><a href="https://d.elong.com/a/contact" title="联系艺龙旅行网" rel="nofollow">联系我们</a></dd>
-        </dl>
-        <dl>
-            <dt>艺龙APP下载</dt>
-            <dd class="pt10"><i class="cm_icon footer_info_app"></i></dd>
-        </dl>
-        <dl>
-            <dt>艺龙官方微信</dt>
-            <dd class="pt10"><i class="cm_icon footer_info_wx"></i></dd>
-        </dl>
-        <dl>
-            <dt>艺龙官方小程序</dt>
-            <dd class="pt10"><i class="cm_icon footer_info_xcx"></i></dd>
-        </dl>
+
     </div>
     <div class="clx"></div>
-    <div class="footer_copy"> &#169; 2000 - 2019 北京艺龙信息技术有限公司, eLong, Inc or its affiliates. All Rights Reserved. <i
-            class="cm_icon"></i> <a rel="nofollow" target="_blank"
-                                    href="http://m.elongstatic.com/pcheaderfooter/2018/06/files/headerfoot/img/ICP_20180015.pdf">ICP证:合B2-20180015</a>
-        <br> <a rel="nofollow" target="_blank"
-                href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502026059"> <i
-                style=" background-image: url(static/images/anbei.png); background-size: contain; background-position: 0; height: 20px; width: 20px;"></i>
-            京公网安备11010502026059号</a> <i class="cm_icon"></i> <a rel="nofollow" target="_blank"
-                                                                href="http://m.elongstatic.com/pcheaderfooter/2018/06/files/headerfoot/img/company_105145723.pdf">经营执照</a>
-        <i class="cm_icon"></i> <a rel="nofollow" target="_blank" href="http://m.elongstatic.com/hotel/eltk/eltk.html">《艺龙旅行网服务条款》</a><i
-                class="cm_icon"></i>违法和不良信息举报电话：95711
-    </div>
-    <div class="footer_safe"><a class="cm_icon qua-1"
-                                href="https://trustsealinfo.websecurity.norton.com/splash?form_file=fdf/splash.fdf&dn=*.elong.com&lang=zh_CN"
-                                rel="nofollow" target="_blank" alt="SSL加密认证" title="SSL加密认证">SSL加密认证</a> <a
-            title="艺龙网通过PCI认证" alt="艺龙网通过PCI认证" target="_blank" rel="nofollow"
-            href="http://www.atsec.cn/cn/pci-attestation/Elong-PCIAttestation-atsec-PCI-DSS-C-01128.jpg"
-            class="cm_icon qua-6">艺龙网通过PCI认证</a><a class="cm_icon qua-3"
-                                                   href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1802034050"
-                                                   rel="nofollow" target="_blank" alt="信赖商业计划" title="信赖商业计划">信用评级</a>
-        <a class="cm_icon qua-5"
-           href="https://ss.knet.cn/verifyseal.dll?sn=e14021111010646180fggu000000&amp;ct=df&amp;a=1&amp;pa=500267"
-           rel="nofollow" onclick="CNNIC_change('urlknet')" tabindex="-1" id="urlknet" target="_blank" title="可信用网站身份验证"
-           alt="可信用网站身份验证">可信用网站身份验证</a> <a class="cm_icon qua-4"
-                                            href="http://search.szfw.org/cert/l/CX20120918001652001722" rel="nofollow"
-                                            target="_blank" title="诚信示范企业" alt="诚信示范企业">诚信示范企业</a> <a alt="品牌官网认证"
-                                                                                                      title="品牌官网认证"
-                                                                                                      target="_blank"
-                                                                                                      rel="nofollow"
-                                                                                                      href="http://si.trustutn.org/info?sn=912170105026585086807&amp;certType=1"
-                                                                                                      class="cm_icon qua-7">品牌官网认证</a>
-    </div>
+
 </div>
-<link rel="stylesheet" type="text/css" href="static/css/styles.css">
-<!-- ===================== footer end ===================== -->
-<div class=bottom_nav>
-    <ul>
-        <li class=action><a href="#bottom_hotel">酒店预订</a>
-        <li><a href="#bottom_flight">机票查询</a>
-        <li><a href="#bottom_city">热门城市</a>
-        <li><a href="#bottom_partner">合作伙伴</a>
-        <li><a href="#bottom_event">常见酒店</a></li>
-    </ul>
-</div>
-<div style="DISPLAY: none" id=bottom_hotel class=bottom_con>
-    <h2>酒店预订</h2>
-    <p>艺龙旅行网提供全球110万家酒店的预订服务和酒店团购服务。通过真实的酒店照片、酒店评价，无论您是和家人一起旅游度假还是商务出行，我们都能为您提供称心如意的酒店。</p>
-    <h2><a style="COLOR: rgb(85,85,85)" href="http://hotel.elong.com/poi/">艺龙酒店地标大全</a></h2>
-    <p>为了方便用户快速定位酒店而存在，我们涵盖了北京、西安、上海、成都、广州、武汉、南京、东莞、长沙、深圳、重庆等城市的常见地标类型。</p></div>
-<div style="DISPLAY: none" id=bottom_flight class=bottom_con>
-    <h2>机票查询</h2>
-    <p>艺龙旅行网是中航协认证的机票服务提供商，提供国内和国际的特价机票、航班信息、机票查询和预订服务。</p></div>
-<div style="DISPLAY: none" id=bottom_city class=bottom_con>
-    <h2>热门城市</h2>
-    <p><a title=北京酒店预订 href="http://hotel.elong.com/beijing/">北京酒店</a><span class="pl5 pr5">|</span> <a title=上海酒店预订
-                                                                                                        href="http://hotel.elong.com/shanghai/">上海酒店</a><span
-            class="pl5 pr5">|</span> <a title=杭州酒店预订 href="http://hotel.elong.com/hangzhou/">杭州酒店</a><span
-            class="pl5 pr5">|</span> <a title=成都酒店预订 href="http://hotel.elong.com/chengdu/">成都酒店</a><span
-            class="pl5 pr5">|</span> <a title=深圳酒店预订 href="http://hotel.elong.com/shenzhen/">深圳酒店</a><span
-            class="pl5 pr5">|</span> <a title=青岛酒店预订 href="http://hotel.elong.com/qingdao/">青岛酒店</a><span
-            class="pl5 pr5">|</span> <a title=苏州酒店预订 href="http://hotel.elong.com/soochow/">苏州酒店</a><span
-            class="pl5 pr5">|</span> <a title=广州酒店预订 href="http://hotel.elong.com/guangzhou/">广州酒店</a><span
-            class="pl5 pr5">|</span> <a title=香港酒店预订 href="http://hotel.elong.com/hongkong/">香港酒店</a><span
-            class="pl5 pr5">|</span> <a title=厦门酒店预订 href="http://hotel.elong.com/xiamen/">厦门酒店</a><span
-            class="pl5 pr5">|</span> <a title=天津酒店预订 href="http://hotel.elong.com/tianjin/">天津酒店</a><span
-            class="pl5 pr5">|</span> <a title=西安酒店预订 href="http://hotel.elong.com/xian/">西安酒店</a><span
-            class="pl5 pr5">|</span> <a title=武汉酒店预订 href="http://hotel.elong.com/wuhan/">武汉酒店</a><span class="pl5 pr5">|</span>
-        <a title=重庆酒店预订 href="http://hotel.elong.com/chongqing/">重庆酒店</a><span class="pl5 pr5">|</span> <a title=沈阳酒店预订
-                                                                                                           href="http://hotel.elong.com/shenyang/">沈阳酒店</a><span
-                class="pl5 pr5">|</span> <a title=长沙酒店预订 href="http://hotel.elong.com/changsha/">长沙酒店</a><span
-                class="pl5 pr5">|</span> <a title=三亚酒店预订 href="http://hotel.elong.com/sanya/">三亚酒店</a><span
-                class="pl5 pr5">|</span> <a title=珠海酒店预订 href="http://hotel.elong.com/zhuhai/">珠海酒店</a><span
-                class="pl5 pr5">|</span> <a title=宁波酒店预订 href="http://hotel.elong.com/ningbo/">宁波酒店</a><span
-                class="pl5 pr5">|</span> <a title=南京酒店预订 href="http://hotel.elong.com/nanjing/">南京酒店</a><span
-                class="pl5 pr5">|</span> <a title=大连酒店预订 href="http://hotel.elong.com/dalian/">大连酒店</a><span
-                class="pl5 pr5">|</span> <a title=济南酒店预订 href="http://hotel.elong.com/jinan/">济南酒店</a><span
-                class="pl5 pr5">|</span> <a title=昆明酒店预订 href="http://hotel.elong.com/kunming/">昆明酒店</a><span
-                class="pl5 pr5">|</span> <a title=合肥酒店预订 href="http://hotel.elong.com/hefei/">合肥酒店</a><span
-                class="pl5 pr5">|</span></p>
-    <div style="DISPLAY: none">
-        <h2 class=mt10>国内城市</h2>
-        <p><a title=哈尔滨酒店预订 href="http://hotel.elong.com/harbin/">哈尔滨酒店</a><span class="pl5 pr5">|</span> <a
-                title=郑州酒店预订 href="http://hotel.elong.com/zhengzhou/">郑州酒店</a><span class="pl5 pr5">|</span> <a
-                title=无锡酒店预订 href="http://hotel.elong.com/wuxi/">无锡酒店</a><span class="pl5 pr5">|</span> <a title=石家庄酒店预订
-                                                                                                           href="http://hotel.elong.com/shijiazhuang/">石家庄酒店</a><span
-                class="pl5 pr5">|</span> <a title=太原酒店预订 href="http://hotel.elong.com/taiyuan/">太原酒店</a><span
-                class="pl5 pr5">|</span> <a title=福州酒店预订 href="http://hotel.elong.com/fuzhou/">福州酒店</a><span
-                class="pl5 pr5">|</span> <a title=长春酒店预订 href="http://hotel.elong.com/changchun/">长春酒店</a><span
-                class="pl5 pr5">|</span> <a title=南宁酒店预订 href="http://hotel.elong.com/nanning/">南宁酒店</a><span
-                class="pl5 pr5">|</span> <a title=南昌酒店预订 href="http://hotel.elong.com/nanchang/">南昌酒店</a><span
-                class="pl5 pr5">|</span> <a title=东莞酒店预订 href="http://hotel.elong.com/dongguan/">东莞酒店</a><span
-                class="pl5 pr5">|</span> <a title=贵阳酒店预订 href="http://hotel.elong.com/guiyang/">贵阳酒店</a><span
-                class="pl5 pr5">|</span> <a title=海口酒店预订 href="http://hotel.elong.com/haikou/">海口酒店</a><span
-                class="pl5 pr5">|</span> <a title=常州酒店预订 href="http://hotel.elong.com/changzhou/">常州酒店</a><span
-                class="pl5 pr5">|</span> <a title=丽江（含束河）酒店预订 href="http://hotel.elong.com/lijiang/">丽江（含束河）酒店</a><span
-                class="pl5 pr5">|</span> <a title=桂林酒店预订 href="http://hotel.elong.com/guilin/">桂林酒店</a><span
-                class="pl5 pr5">|</span> <a title=乌鲁木齐酒店预订 href="http://hotel.elong.com/urumqi/">乌鲁木齐酒店</a><span
-                class="pl5 pr5">|</span> <a title=烟台酒店预订 href="http://hotel.elong.com/yantai/">烟台酒店</a><span
-                class="pl5 pr5">|</span> <a title=佛山酒店预订 href="http://hotel.elong.com/foshan/">佛山酒店</a><span
-                class="pl5 pr5">|</span> <a title=舟山酒店预订 href="http://hotel.elong.com/zhoushan/">舟山酒店</a><span
-                class="pl5 pr5">|</span> <a title=温州酒店预订 href="http://hotel.elong.com/wenzhou/">温州酒店</a><span
-                class="pl5 pr5">|</span> <a title=兰州酒店预订 href="http://hotel.elong.com/lanzhou/">兰州酒店</a><span
-                class="pl5 pr5">|</span> <a title=扬州酒店预订 href="http://hotel.elong.com/yangzhou/">扬州酒店</a><span
-                class="pl5 pr5">|</span> <a title=绍兴酒店预订 href="http://hotel.elong.com/shaoxing/">绍兴酒店</a><span
-                class="pl5 pr5">|</span> <a title=呼和浩特酒店预订 href="http://hotel.elong.com/hohhot/">呼和浩特酒店</a><span
-                class="pl5 pr5">|</span> <a title=黄山酒店预订 href="http://hotel.elong.com/huangshan/">黄山酒店</a><span
-                class="pl5 pr5">|</span> <a title=义乌酒店预订 href="http://hotel.elong.com/yiwu/">义乌酒店</a><span
-                class="pl5 pr5">|</span> <a title=西宁酒店预订 href="http://hotel.elong.com/xining/">西宁酒店</a><span
-                class="pl5 pr5">|</span> <a title=泰安酒店预订 href="http://hotel.elong.com/taian/">泰安酒店</a><span
-                class="pl5 pr5">|</span> <a title=洛阳酒店预订 href="http://hotel.elong.com/luoyang/">洛阳酒店</a><span
-                class="pl5 pr5">|</span> <a title=徐州酒店预订 href="http://hotel.elong.com/xuzhou/">徐州酒店</a><span
-                class="pl5 pr5">|</span> <a title=阳朔（桂林）酒店预订 href="http://hotel.elong.com/yangshuo/">阳朔（桂林）酒店</a><span
-                class="pl5 pr5">|</span> <a title=潍坊酒店预订 href="http://hotel.elong.com/weifang/">潍坊酒店</a><span
-                class="pl5 pr5">|</span> <a title=威海酒店预订 href="http://hotel.elong.com/weihai/">威海酒店</a><span
-                class="pl5 pr5">|</span> <a title=惠州酒店预订 href="http://hotel.elong.com/huizhou/">惠州酒店</a><span
-                class="pl5 pr5">|</span> <a title=银川酒店预订 href="http://hotel.elong.com/yinchuan/">银川酒店</a><span
-                class="pl5 pr5">|</span> <a title=南通酒店预订 href="http://hotel.elong.com/nantong/">南通酒店</a><span
-                class="pl5 pr5">|</span> <a title=北海酒店预订 href="http://hotel.elong.com/beihai/">北海酒店</a><span
-                class="pl5 pr5">|</span> <a title=中山酒店预订 href="http://hotel.elong.com/zhongshan/">中山酒店</a><span
-                class="pl5 pr5">|</span> <a title=秦皇岛酒店预订 href="http://hotel.elong.com/qinhuangdao/">秦皇岛酒店</a><span
-                class="pl5 pr5">|</span> <a title=九寨沟酒店预订 href="http://hotel.elong.com/jiuzhaigou/">九寨沟酒店</a><span
-                class="pl5 pr5">|</span> <a title=北戴河酒店预订 href="http://hotel.elong.com/beidaihe/">北戴河酒店</a><span
-                class="pl5 pr5">|</span> <a title=大理酒店预订 href="http://hotel.elong.com/dali/">大理酒店</a><span
-                class="pl5 pr5">|</span> <a title=唐山酒店预订 href="http://hotel.elong.com/tangshan/">唐山酒店</a><span
-                class="pl5 pr5">|</span> <a title=大同酒店预订 href="http://hotel.elong.com/datong/">大同酒店</a><span
-                class="pl5 pr5">|</span> <a title=芜湖酒店预订 href="http://hotel.elong.com/wuhu/">芜湖酒店</a><span
-                class="pl5 pr5">|</span> <a title=西双版纳酒店预订 href="http://hotel.elong.com/xishuangbanna/">西双版纳酒店</a><span
-                class="pl5 pr5">|</span> <a title=日照酒店预订 href="http://hotel.elong.com/rizhao/">日照酒店</a><span
-                class="pl5 pr5">|</span> <a title=淄博酒店预订 href="http://hotel.elong.com/zibo/">淄博酒店</a><span
-                class="pl5 pr5">|</span> <a title=西塘（嘉善）酒店预订 href="http://hotel.elong.com/xitang/">西塘（嘉善）酒店</a><span
-                class="pl5 pr5">|</span> <a title=汕头酒店预订 href="http://hotel.elong.com/shantou/">汕头酒店</a><span
-                class="pl5 pr5">|</span> <a title=乌镇（桐乡）酒店预订 href="http://hotel.elong.com/wuzhen/">乌镇（桐乡）酒店</a><span
-                class="pl5 pr5">|</span> <a title=宜昌酒店预订 href="http://hotel.elong.com/yichang/">宜昌酒店</a><span
-                class="pl5 pr5">|</span> <a title=澳门酒店预订 href="http://hotel.elong.com/macau/">澳门酒店</a><span
-                class="pl5 pr5">|</span> <a title=昆山（苏州）酒店预订 href="http://hotel.elong.com/kunshan/">昆山（苏州）酒店</a><span
-                class="pl5 pr5">|</span> <a title=嘉兴酒店预订 href="http://hotel.elong.com/jiaxing/">嘉兴酒店</a><span
-                class="pl5 pr5">|</span> <a title=千岛湖酒店预订 href="http://hotel.elong.com/qiandaohu/">千岛湖酒店</a><span
-                class="pl5 pr5">|</span> <a title=保定酒店预订 href="http://hotel.elong.com/baoding/">保定酒店</a><span
-                class="pl5 pr5">|</span> <a title=金华酒店预订 href="http://hotel.elong.com/jinhua/">金华酒店</a><span
-                class="pl5 pr5">|</span> <a title=拉萨酒店预订 href="http://hotel.elong.com/lhasa/">拉萨酒店</a><span
-                class="pl5 pr5">|</span> <a title=西昌（凉山州）酒店预订 href="http://hotel.elong.com/xichang/">西昌（凉山州）酒店</a><span
-                class="pl5 pr5">|</span> <a title=湛江酒店预订 href="http://hotel.elong.com/zhanjiang/">湛江酒店</a><span
-                class="pl5 pr5">|</span> <a title=泉州酒店预订 href="http://hotel.elong.com/quanzhou/">泉州酒店</a><span
-                class="pl5 pr5">|</span> <a title=凤凰（湘西）酒店预订 href="http://hotel.elong.com/fenghuang/">凤凰（湘西）酒店</a><span
-                class="pl5 pr5">|</span> <a title=临沂酒店预订 href="http://hotel.elong.com/linyi/">临沂酒店</a><span
-                class="pl5 pr5">|</span> <a title=峨眉山酒店预订 href="http://hotel.elong.com/emeishan/">峨眉山酒店</a><span
-                class="pl5 pr5">|</span> <a title=台州酒店预订 href="http://hotel.elong.com/taichow/">台州酒店</a><span
-                class="pl5 pr5">|</span> <a title=连云港酒店预订 href="http://hotel.elong.com/lianyungang/">连云港酒店</a><span
-                class="pl5 pr5">|</span> <a title=张家界酒店预订 href="http://hotel.elong.com/zhangjiajie/">张家界酒店</a><span
-                class="pl5 pr5">|</span> <a title=镇江酒店预订 href="http://hotel.elong.com/zhenjiang/">镇江酒店</a><span
-                class="pl5 pr5">|</span> <a title=承德酒店预订 href="http://hotel.elong.com/chengde/">承德酒店</a><span
-                class="pl5 pr5">|</span> <a title=开封酒店预订 href="http://hotel.elong.com/kaifeng/">开封酒店</a><span
-                class="pl5 pr5">|</span> <a title=肇庆酒店预订 href="http://hotel.elong.com/zhaoqing/">肇庆酒店</a><span
-                class="pl5 pr5">|</span> <a title=海宁酒店预订 href="http://hotel.elong.com/haining/">海宁酒店</a><span
-                class="pl5 pr5">|</span> <a title=柳州酒店预订 href="http://hotel.elong.com/liuzhou/">柳州酒店</a><span
-                class="pl5 pr5">|</span> <a title=绵阳酒店预订 href="http://hotel.elong.com/mianyang/">绵阳酒店</a><span
-                class="pl5 pr5">|</span> <a title=包头酒店预订 href="http://hotel.elong.com/baotou/">包头酒店</a><span
-                class="pl5 pr5">|</span> <a title=武夷山酒店预订 href="http://hotel.elong.com/wuyishan/">武夷山酒店</a><span
-                class="pl5 pr5">|</span> <a title=常熟（苏州）酒店预订 href="http://hotel.elong.com/changshu/">常熟（苏州）酒店</a><span
-                class="pl5 pr5">|</span> <a title=敦煌酒店预订 href="http://hotel.elong.com/dunhuang/">敦煌酒店</a><span
-                class="pl5 pr5">|</span> <a title=韶关酒店预订 href="http://hotel.elong.com/shaoguan/">韶关酒店</a><span
-                class="pl5 pr5">|</span> <a title=平遥酒店预订 href="http://hotel.elong.com/pingyao/">平遥酒店</a><span
-                class="pl5 pr5">|</span> <a title=丹东酒店预订 href="http://hotel.elong.com/dandong/">丹东酒店</a><span
-                class="pl5 pr5">|</span> <a title=淮安酒店预订 href="http://hotel.elong.com/huaian/">淮安酒店</a><span
-                class="pl5 pr5">|</span> <a title=吉林酒店预订 href="http://hotel.elong.com/jilin/">吉林酒店</a><span
-                class="pl5 pr5">|</span> <a title=九江酒店预订 href="http://hotel.elong.com/jiujiang/">九江酒店</a><span
-                class="pl5 pr5">|</span> <a title=盐城酒店预订 href="http://hotel.elong.com/yancheng/">盐城酒店</a><span
-                class="pl5 pr5">|</span> <a title=邯郸酒店预订 href="http://hotel.elong.com/handan/">邯郸酒店</a><span
-                class="pl5 pr5">|</span> <a title=营口酒店预订 href="http://hotel.elong.com/yingkou/">营口酒店</a><span
-                class="pl5 pr5">|</span> <a title=阳江酒店预订 href="http://hotel.elong.com/yangjiang/">阳江酒店</a><span
-                class="pl5 pr5">|</span> <a title=江门酒店预订 href="http://hotel.elong.com/jiangmen/">江门酒店</a><span
-                class="pl5 pr5">|</span> <a title=襄阳酒店预订 href="http://hotel.elong.com/xiangyang/">襄阳酒店</a><span
-                class="pl5 pr5">|</span> <a title=赣州酒店预订 href="http://hotel.elong.com/ganzhou/">赣州酒店</a><span
-                class="pl5 pr5">|</span> <a title=东营酒店预订 href="http://hotel.elong.com/dongying/">东营酒店</a><span
-                class="pl5 pr5">|</span> <a title=株洲酒店预订 href="http://hotel.elong.com/zhuzhou/">株洲酒店</a><span
-                class="pl5 pr5">|</span> <a title=锦州酒店预订 href="http://hotel.elong.com/jinzhou/">锦州酒店</a><span
-                class="pl5 pr5">|</span> <a title=曲阜（济宁）酒店预订 href="http://hotel.elong.com/qufu/">曲阜（济宁）酒店</a><span
-                class="pl5 pr5">|</span> <a title=慈溪酒店预订 href="http://hotel.elong.com/cixi/">慈溪酒店</a><span
-                class="pl5 pr5">|</span> <a title=都江堰（成都）酒店预订
-                                            href="http://hotel.elong.com/dujiangyan/">都江堰（成都）酒店</a><span
-                class="pl5 pr5">|</span> <a title=溧阳天目湖（常州）酒店预订
-                                            href="http://hotel.elong.com/liyang/">溧阳天目湖（常州）酒店</a><span
-                class="pl5 pr5">|</span> <a title=泰州酒店预订 href="http://hotel.elong.com/taizhou/">泰州酒店</a><span
-                class="pl5 pr5">|</span> <a title=岳阳酒店预订 href="http://hotel.elong.com/yueyang/">岳阳酒店</a><span
-                class="pl5 pr5">|</span> <a title=清远酒店预订 href="http://hotel.elong.com/qingyuan/">清远酒店</a><span
-                class="pl5 pr5">|</span> <a title=济宁酒店预订 href="http://hotel.elong.com/jining/">济宁酒店</a><span
-                class="pl5 pr5">|</span> <a title=张家港（苏州）酒店预订
-                                            href="http://hotel.elong.com/zhangjiagang/">张家港（苏州）酒店</a><span
-                class="pl5 pr5">|</span> <a title=衡阳酒店预订 href="http://hotel.elong.com/hengyang/">衡阳酒店</a><span
-                class="pl5 pr5">|</span> <a title=江阴（无锡）酒店预订 href="http://hotel.elong.com/jiangyin/">江阴（无锡）酒店</a><span
-                class="pl5 pr5">|</span> <a title=梅州酒店预订 href="http://hotel.elong.com/meizhou/">梅州酒店</a><span
-                class="pl5 pr5">|</span> <a title=德州酒店预订 href="http://hotel.elong.com/dezhou/">德州酒店</a><span
-                class="pl5 pr5">|</span> <a title=乐山酒店预订 href="http://hotel.elong.com/leshan/">乐山酒店</a><span
-                class="pl5 pr5">|</span> <a title=鄂尔多斯酒店预订 href="http://hotel.elong.com/ordos/">鄂尔多斯酒店</a><span
-                class="pl5 pr5">|</span> <a title=湖州酒店预订 href="http://hotel.elong.com/huzhou/">湖州酒店</a><span
-                class="pl5 pr5">|</span> <a title=蓬莱（烟台）酒店预订 href="http://hotel.elong.com/penglai/">蓬莱（烟台）酒店</a><span
-                class="pl5 pr5">|</span> <a title=宜兴（无锡）酒店预订 href="http://hotel.elong.com/yixing/">宜兴（无锡）酒店</a><span
-                class="pl5 pr5">|</span> <a title=潮州酒店预订 href="http://hotel.elong.com/chaozhou/">潮州酒店</a><span
-                class="pl5 pr5">|</span> <a title=横店酒店预订 href="http://hotel.elong.com/hengdian/">横店酒店</a><span
-                class="pl5 pr5">|</span> <a title=腾冲酒店预订 href="http://hotel.elong.com/tengchong/">腾冲酒店</a><span
-                class="pl5 pr5">|</span> <a title=景德镇酒店预订 href="http://hotel.elong.com/jingdezhen/">景德镇酒店</a><span
-                class="pl5 pr5">|</span> <a title=廊坊酒店预订 href="http://hotel.elong.com/langfang/">廊坊酒店</a><span
-                class="pl5 pr5">|</span> <a title=马鞍山酒店预订 href="http://hotel.elong.com/maanshan/">马鞍山酒店</a><span
-                class="pl5 pr5">|</span> <a title=余姚酒店预订 href="http://hotel.elong.com/yuyao/">余姚酒店</a><span
-                class="pl5 pr5">|</span> <a title=张家口酒店预订 href="http://hotel.elong.com/zhangjiakou/">张家口酒店</a><span
-                class="pl5 pr5">|</span> <a title=遵义酒店预订 href="http://hotel.elong.com/zunyi/">遵义酒店</a><span
-                class="pl5 pr5">|</span> <a title=延安酒店预订 href="http://hotel.elong.com/yanan/">延安酒店</a><span
-                class="pl5 pr5">|</span> <a title=沧州酒店预订 href="http://hotel.elong.com/cangzhou/">沧州酒店</a><span
-                class="pl5 pr5">|</span> <a title=香格里拉（迪庆州）酒店预订
-                                            href="http://hotel.elong.com/xianggelila/">香格里拉（迪庆州）酒店</a><span
-                class="pl5 pr5">|</span> <a title=五台山酒店预订 href="http://hotel.elong.com/wutaishan/">五台山酒店</a><span
-                class="pl5 pr5">|</span> <a title=庐山（九江）酒店预订 href="http://hotel.elong.com/lushan_jiujiang/">庐山（九江）酒店</a><span
-                class="pl5 pr5">|</span> <a title=衢州酒店预订 href="http://hotel.elong.com/quzhou/">衢州酒店</a><span
-                class="pl5 pr5">|</span> <a title=河源酒店预订 href="http://hotel.elong.com/heyuan/">河源酒店</a><span
-                class="pl5 pr5">|</span> <a title=鞍山酒店预订 href="http://hotel.elong.com/anshan/">鞍山酒店</a><span
-                class="pl5 pr5">|</span> <a title=南阳酒店预订 href="http://hotel.elong.com/nanyang/">南阳酒店</a><span
-                class="pl5 pr5">|</span> <a title=蚌埠酒店预订 href="http://hotel.elong.com/bengbu/">蚌埠酒店</a><span
-                class="pl5 pr5">|</span> <a title=晋城酒店预订 href="http://hotel.elong.com/jincheng/">晋城酒店</a><span
-                class="pl5 pr5">|</span> <a title=淮南酒店预订 href="http://hotel.elong.com/huainan/">淮南酒店</a><span
-                class="pl5 pr5">|</span> <a title=诸暨（绍兴）酒店预订 href="http://hotel.elong.com/zhuji/">诸暨（绍兴）酒店</a><span
-                class="pl5 pr5">|</span> <a title=南戴河酒店预订 href="http://hotel.elong.com/nandaihe/">南戴河酒店</a><span
-                class="pl5 pr5">|</span> <a title=焦作酒店预订 href="http://hotel.elong.com/jiaozuo/">焦作酒店</a><span
-                class="pl5 pr5">|</span> <a title=莆田酒店预订 href="http://hotel.elong.com/putian/">莆田酒店</a><span
-                class="pl5 pr5">|</span> <a title=新乡酒店预订 href="http://hotel.elong.com/xinxiang/">新乡酒店</a><span
-                class="pl5 pr5">|</span> <a title=十堰酒店预订 href="http://hotel.elong.com/shiyan/">十堰酒店</a><span
-                class="pl5 pr5">|</span> <a title=聊城酒店预订 href="http://hotel.elong.com/liaocheng/">聊城酒店</a><span
-                class="pl5 pr5">|</span> <a title=婺源酒店预订 href="http://hotel.elong.com/wuyuan/">婺源酒店</a><span
-                class="pl5 pr5">|</span> <a title=牡丹江酒店预订 href="http://hotel.elong.com/mudanjiang/">牡丹江酒店</a><span
-                class="pl5 pr5">|</span> <a title=荆州酒店预订 href="http://hotel.elong.com/jingzhou/">荆州酒店</a><span
-                class="pl5 pr5">|</span> <a title=枣庄酒店预订 href="http://hotel.elong.com/zaozhuang/">枣庄酒店</a><span
-                class="pl5 pr5">|</span> <a title=太仓（苏州）酒店预订 href="http://hotel.elong.com/taicang/">太仓（苏州）酒店</a><span
-                class="pl5 pr5">|</span> <a title=延吉酒店预订 href="http://hotel.elong.com/yanji/">延吉酒店</a><span
-                class="pl5 pr5">|</span> <a title=恩施酒店预订 href="http://hotel.elong.com/enshi/">恩施酒店</a><span
-                class="pl5 pr5">|</span> <a title=雅安酒店预订 href="http://hotel.elong.com/yaan/">雅安酒店</a><span
-                class="pl5 pr5">|</span> <a title=齐齐哈尔酒店预订 href="http://hotel.elong.com/qiqihaer/">齐齐哈尔酒店</a><span
-                class="pl5 pr5">|</span> <a title=安庆酒店预订 href="http://hotel.elong.com/anqing/">安庆酒店</a><span
-                class="pl5 pr5">|</span> <a title=咸宁酒店预订 href="http://hotel.elong.com/xianning/">咸宁酒店</a><span
-                class="pl5 pr5">|</span> <a title=宜宾酒店预订 href="http://hotel.elong.com/yibin/">宜宾酒店</a><span
-                class="pl5 pr5">|</span> <a title=长治酒店预订 href="http://hotel.elong.com/changzhi/">长治酒店</a><span
-                class="pl5 pr5">|</span> <a title=大庆酒店预订 href="http://hotel.elong.com/daqing/">大庆酒店</a><span
-                class="pl5 pr5">|</span> <a title=广元酒店预订 href="http://hotel.elong.com/guangyuan/">广元酒店</a><span
-                class="pl5 pr5">|</span> <a title=宝鸡酒店预订 href="http://hotel.elong.com/baoji/">宝鸡酒店</a><span
-                class="pl5 pr5">|</span> <a title=上虞酒店预订 href="http://hotel.elong.com/shangyu_shaoxin/">上虞酒店</a><span
-                class="pl5 pr5">|</span> <a title=邢台酒店预订 href="http://hotel.elong.com/xingtai/">邢台酒店</a><span
-                class="pl5 pr5">|</span> <a title=象山酒店预订 href="http://hotel.elong.com/xiangshan/">象山酒店</a><span
-                class="pl5 pr5">|</span> <a title=咸阳酒店预订 href="http://hotel.elong.com/xianyang/">咸阳酒店</a><span
-                class="pl5 pr5">|</span> <a title=盘锦酒店预订 href="http://hotel.elong.com/panjin/">盘锦酒店</a><span
-                class="pl5 pr5">|</span> <a title=郴州酒店预订 href="http://hotel.elong.com/chenzhou/">郴州酒店</a><span
-                class="pl5 pr5">|</span> <a title=信阳酒店预订 href="http://hotel.elong.com/xinyang/">信阳酒店</a><span
-                class="pl5 pr5">|</span> <a title=龙岩酒店预订 href="http://hotel.elong.com/longyan/">龙岩酒店</a><span
-                class="pl5 pr5">|</span> <a title=九华山酒店预订 href="http://hotel.elong.com/jiuhuashan/">九华山酒店</a><span
-                class="pl5 pr5">|</span> <a title=周庄酒店预订 href="http://hotel.elong.com/zhouzhuang/">周庄酒店</a><span
-                class="pl5 pr5">|</span> <a title=运城酒店预订 href="http://hotel.elong.com/yuncheng/">运城酒店</a><span
-                class="pl5 pr5">|</span> <a title=宁海（宁波）酒店预订
-                                            href="http://hotel.elong.com/ninghai_ningbo/">宁海（宁波）酒店</a><span
-                class="pl5 pr5">|</span> <a title=安吉（湖州）酒店预订 href="http://hotel.elong.com/anji/">安吉（湖州）酒店</a><span
-                class="pl5 pr5">|</span> <a title=呼伦贝尔（海拉尔）酒店预订
-                                            href="http://hotel.elong.com/hulunbeier/">呼伦贝尔（海拉尔）酒店</a><span
-                class="pl5 pr5">|</span> <a title=汉中酒店预订 href="http://hotel.elong.com/hanzhong/">汉中酒店</a><span
-                class="pl5 pr5">|</span> <a title=湘潭酒店预订 href="http://hotel.elong.com/xiangtan/">湘潭酒店</a><span
-                class="pl5 pr5">|</span> <a title=自贡酒店预订 href="http://hotel.elong.com/zigong/">自贡酒店</a><span
-                class="pl5 pr5">|</span> <a title=赤峰酒店预订 href="http://hotel.elong.com/chifeng/">赤峰酒店</a><span
-                class="pl5 pr5">|</span> <a title=长白山酒店预订 href="http://hotel.elong.com/changbaishan/">长白山酒店</a><span
-                class="pl5 pr5">|</span> <a title=德阳酒店预订 href="http://hotel.elong.com/deyang/">德阳酒店</a><span
-                class="pl5 pr5">|</span> <a title=漳州酒店预订 href="http://hotel.elong.com/zhangzhou/">漳州酒店</a><span
-                class="pl5 pr5">|</span> <a title=安顺（黄果树）酒店预订 href="http://hotel.elong.com/anshun/">安顺（黄果树）酒店</a><span
-                class="pl5 pr5">|</span> <a title=南充酒店预订 href="http://hotel.elong.com/nanchong/">南充酒店</a><span
-                class="pl5 pr5">|</span> <a title=葫芦岛酒店预订 href="http://hotel.elong.com/huludao/">葫芦岛酒店</a><span
-                class="pl5 pr5">|</span> <a title=桐乡酒店预订 href="http://hotel.elong.com/tongxiang/">桐乡酒店</a><span
-                class="pl5 pr5">|</span> <a title=嘉峪关酒店预订 href="http://hotel.elong.com/jiayuguan/">嘉峪关酒店</a><span
-                class="pl5 pr5">|</span> <a title=天水酒店预订 href="http://hotel.elong.com/tianshui/">天水酒店</a><span
-                class="pl5 pr5">|</span> <a title=菏泽酒店预订 href="http://hotel.elong.com/heze/">菏泽酒店</a><span
-                class="pl5 pr5">|</span> <a title=常德酒店预订 href="http://hotel.elong.com/changde/">常德酒店</a><span
-                class="pl5 pr5">|</span> <a title=丽水酒店预订 href="http://hotel.elong.com/lishui/">丽水酒店</a><span
-                class="pl5 pr5">|</span> <a title=晋江酒店预订 href="http://hotel.elong.com/jinjiang/">晋江酒店</a><span
-                class="pl5 pr5">|</span> <a title=辽阳酒店预订 href="http://hotel.elong.com/liaoyang/">辽阳酒店</a><span
-                class="pl5 pr5">|</span> <a title=台山酒店预订 href="http://hotel.elong.com/taishan/">台山酒店</a><span
-                class="pl5 pr5">|</span> <a title=茂名酒店预订 href="http://hotel.elong.com/maoming/">茂名酒店</a><span
-                class="pl5 pr5">|</span> <a title=临汾酒店预订 href="http://hotel.elong.com/linfen/">临汾酒店</a><span
-                class="pl5 pr5">|</span> <a title=梧州酒店预订 href="http://hotel.elong.com/wuzhou/">梧州酒店</a><span
-                class="pl5 pr5">|</span> <a title=滨州酒店预订 href="http://hotel.elong.com/binzhou/">滨州酒店</a><span
-                class="pl5 pr5">|</span> <a title=泸州酒店预订 href="http://hotel.elong.com/luzhou/">泸州酒店</a><span
-                class="pl5 pr5">|</span> <a title=揭阳酒店预订 href="http://hotel.elong.com/jieyang/">揭阳酒店</a><span
-                class="pl5 pr5">|</span> <a title=奉化（宁波）酒店预订
-                                            href="http://hotel.elong.com/fenghua_ningbo/">奉化（宁波）酒店</a><span
-                class="pl5 pr5">|</span> <a title=攀枝花酒店预订 href="http://hotel.elong.com/panzhihua/">攀枝花酒店</a><span
-                class="pl5 pr5">|</span> <a title=宿迁酒店预订 href="http://hotel.elong.com/suqian/">宿迁酒店</a><span
-                class="pl5 pr5">|</span></p></div>
-</div>
-<div style="DISPLAY: none" id=bottom_partner class=bottom_con>
-    <h2>合作伙伴</h2>
-    <p><a title=住哪网 href="http://www.zhuna.cn/" target=_blank>住哪网</a><span class="pl5 pr5">|</span> <a title=TripAdvisor
-                                                                                                       href="http://www.tripadvisor.cn/"
-                                                                                                       target=_blank>TripAdvisor</a><span
-            class="pl5 pr5">|</span> <a title=吉祥航空 href="http://www.juneyaoair.com/" target=_blank>吉祥航空</a><span
-            class="pl5 pr5">|</span> <a title=北京房产 href="http://bj.house.sina.com.cn/" target=_blank>北京房产</a><span
-            class="pl5 pr5">|</span> <a title=装修家居 href="http://www.jiaju.com/" target=_blank>装修家居</a><span
-            class="pl5 pr5">|</span> <a title=住哲酒店管理系统 href="http://www.zhuzher.com/" target=_blank>住哲酒店管理系统</a></p>
-</div>
-<div style="DISPLAY: none" id=bottom_event class=bottom_con>
-    <h2>常见酒店</h2>
-    <p><a title=如家快捷酒店 href="http://hotel.elong.com/hotel-chain/32.html">如家酒店官网</a><span class="pl5 pr5">|</span> <a
-            title=布丁连锁酒店 href="http://hotel.elong.com/hotel-chain/111.html">布丁酒店</a><span class="pl5 pr5">|</span> <a
-            title=酒店预订 href="http://hotel.elong.com/ ">酒店预订</a><span class="pl5 pr5">|</span> <a title=汉庭连锁酒店
-                                                                                                 href="http://hotel.elong.com/hotel-chain/56.html ">汉庭酒店官网</a><span
-            class="pl5 pr5">|</span> <a title=7天连锁酒店
-                                        href="http://hotel.elong.com/hotel-chain/53.html ">七天连锁酒店官网</a><span
-            class="pl5 pr5">|</span> <a title=希尔顿饭店 href="http://hotel.elong.com/hotel-chain/14.html">希尔顿酒店</a><span
-            class="pl5 pr5">|</span> <a title=书香府邸附近酒店
-                                        href="http://hotel.elong.com/chengdu/place3220538/">书香府邸酒店</a><span
-            class="pl5 pr5">|</span> <a title=桔子酒店 href="http://hotel.elong.com/hotel-chain/65.html">桔子酒店</a><span
-            class="pl5 pr5">|</span> <a title=格林豪泰连锁酒店
-                                        href="http://hotel.elong.com/hotel-chain/44.html">格林豪泰连锁酒店官网</a><span
-            class="pl5 pr5">|</span> <a title=香格里拉大酒店 href="http://hotel.elong.com/hotel-chain/11.html">香格里拉酒店</a><span
-            class="pl5 pr5">|</span> <a title=维也纳连锁酒店 href="http://hotel.elong.com/hotel-chain/97.html">维也纳酒店</a><span
-            class="pl5 pr5">|</span> <a title=喜来登酒店官网 href="http://hotel.elong.com/hotel-chain/313.html">喜来登酒店</a><span
-            class="pl5 pr5">|</span> <a title=公寓式酒店 href="http://jia.elong.com/">酒店式公寓</a><span class="pl5 pr5">|</span>
-        <a title=长隆酒店 href="http://hotel.elong.com/guangzhou/52015001/">广州长隆酒店</a><span class="pl5 pr5">|</span> <a
-                title=四季酒店官网 href="http://hotel.elong.com/hotel-chain/104.html">四季酒店</a><span class="pl5 pr5">|</span>
-        <a title=万豪酒店官网 href="http://hotel.elong.com/hotel-chain/13.html">万豪酒店</a><span class="pl5 pr5">|</span> <a
-                title=假日酒店 href="http://hotel.elong.com/hotel-chain/316.html">皇冠假日酒店</a><span class="pl5 pr5">|</span>
-        <a title=上海书香世家酒店 href="http://hotel.elong.com/shanghai/50201315/">书香世家酒店</a><span class="pl5 pr5">|</span> <a
-                title=凯宾斯基酒店官网 href="http://hotel.elong.com/hotel-chain/45.html">凯宾斯基酒店</a><span
-                class="pl5 pr5">|</span> <a title=锦江之星连锁酒店
-                                            href="http://hotel.elong.com/hotel-chain/34.html">锦江之星连锁酒店官网</a><span
-                class="pl5 pr5">|</span> <a title=洲际酒店官网 href="http://hotel.elong.com/hotel-chain/15.html">洲际酒店</a><span
-                class="pl5 pr5">|</span> <a title=华住全季酒店官网 href="http://hotel.elong.com/hotel-chain/29323.html">全季酒店</a><span
-                class="pl5 pr5">|</span> <a title=广州大学城附近宾馆 href="http://hotel.elong.com/guangzhou/center100756275/">广州大学城附近酒店</a><span
-                class="pl5 pr5">|</span> <a title=威斯汀酒店官网
-                                            href="http://hotel.elong.com/hotel-chain/423.html">威斯汀酒店</a><span
-                class="pl5 pr5">|</span> <a title=杭州西湖附近酒店 href="http://hotel.elong.com/hangzhou/place2846567/">杭州西湖附近的酒店</a><span
-                class="pl5 pr5">|</span> <a title=W酒店官网
-                                            href="http://hotel.elong.com/hotel-chain/29303.html">w酒店</a><span
-                class="pl5 pr5">|</span> <a title=速八酒店 href="http://hotel.elong.com/hotel-chain/41.html">速8酒店官网</a><span
-                class="pl5 pr5">|</span> <a title=星程酒店官网
-                                            href="http://hotel.elong.com/hotel-chain/425.html">星程酒店</a><span
-                class="pl5 pr5">|</span> <a title=丽思卡尔顿酒店官网
-                                            href="http://hotel.elong.com/hotel-chain/488.html">丽思卡尔顿酒店</a><span
-                class="pl5 pr5">|</span> <a title=华天酒店官网
-                                            href="http://hotel.elong.com/hotel-chain/392.html">华天酒店</a><span
-                class="pl5 pr5">|</span> <a title=半岛酒店集团
-                                            href="http://hotel.elong.com/hotel-chain/390.html">半岛酒店</a><span
-                class="pl5 pr5">|</span> <a title=北京国宾酒店 href="http://hotel.elong.com/beijing/50101021/ ">国宾酒店</a><span
-                class="pl5 pr5">|</span> <a title=凯悦酒店官网
-                                            href="http://hotel.elong.com/hotel-chain/10.html ">凯悦酒店</a><span
-                class="pl5 pr5">|</span> <a title=宜必思酒店预订
-                                            href="http://hotel.elong.com/hotel-chain/312.html ">宜必思酒店</a><span
-                class="pl5 pr5">|</span> <a title=千岛湖洲际酒店官网 href="http://hotel.elong.com/qiandaohu_hangzhou/51233010/ ">千岛湖洲际度假酒店</a><span
-                class="pl5 pr5">|</span> <a title=北京盘古七星酒店
-                                            href="http://hotel.elong.com/beijing/50101507/ ">盘古七星酒店</a><span
-                class="pl5 pr5">|</span> <a title=北戴河刘庄家庭旅馆
-                                            href="http://hotel.elong.com/beidaihe/00508256/">北戴河刘庄家庭旅馆</a><span
-                class="pl5 pr5">|</span> <a title=公寓 href="http://www.elong.com/apartment/">公寓</a><span class="pl5 pr5">|</span>
-        <a title=家庭旅馆 href="http://www.elong.com/family/">家庭旅馆</a><span class="pl5 pr5">|</span> <a title=青年旅舍
-                                                                                                    href="http://www.elong.com/youth/">青年旅舍</a><span
-                class="pl5 pr5">|</span> <a title=情侣酒店
-                                            href="http://promotion.elong.com/index/fold/fold2/index.html?t=20170503">情侣酒店</a><span
-                class="pl5 pr5">|</span> <a title=农家乐 href="http://www.elong.com/farmhouse/">农家乐</a><span
-                class="pl5 pr5">|</span> <a title=短租公寓 href="http://www.elong.com/shortrent/">短租公寓</a><span
-                class="pl5 pr5">|</span> <a title=客栈 href="http://www.elong.com/inn/">客栈</a><span
-                class="pl5 pr5">|</span> <a title=主题酒店 href="http://www.elong.com/theme/">主题酒店</a></p></div>
-<!--seo end-->
-<!-- 可信网站LOGO安装开始 -->
+
 
 </body>
 </html>

@@ -37,6 +37,7 @@
         <jedis.version>3.0.1</jedis.version>
         <commonslang3.version>3.4</commonslang3.version>
         <fdfs-client.version>1.27-SNAPSHOT</fdfs-client.version>
+        <solrj.version>4.10.3</solrj.version>
     </properties>
     <!--依赖的声明，不是真正的使用-->
     <dependencyManagement>
@@ -158,6 +159,11 @@
                 <groupId>org.csource</groupId>
                 <artifactId>fastdfs-client-java</artifactId>
                 <version>${fdfs-client.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.solr</groupId>
+                <artifactId>solr-solrj</artifactId>
+                <version>${solrj.version}</version>
             </dependency>
 
         </dependencies>
