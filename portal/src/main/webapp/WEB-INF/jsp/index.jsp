@@ -11,7 +11,7 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-    <title>【艺龙旅行网】酒店预订_机票查询_酒店团购_电话95711</title>
+    <title>渺渺屋旅游网</title>
     <link rel="icon"
           href="http://m.elongstatic.com/static/webapp/pc_static/pc_hotel/other/common/pic/favicon.ico?t=201411070740"
           type="image/x-icon"/>
@@ -156,7 +156,7 @@
         <ul class="pic_show">
             <c:forEach begin="0" end="${list.size()-1}" items="${list}" var="url" varStatus="i" >
 
-                <li style="display: block;"><a href="#" target="_blank"
+                <li style="display: block;"><a href="javascript:;" target="_blank"
                                                style="background:url( ${url.url}) no-repeat center bottom;"></a>
                 </li>
             </c:forEach>
@@ -310,7 +310,7 @@
 <div class="no_record mt20 " style="display: none">
     <div class="wrap1000 clearfix">
         <div class="no_record_inf left">
-            <i class="ei_icon icon025 mr5"></i><a href="https://secure.elong.com/passport/login_cn.html">登录</a><em>展示你的个性化内容</em>
+            <i class="ei_icon icon025 mr5"></i><a href="javascript:;">登录</a><em>展示你的个性化内容</em>
         </div>
     </div>
 </div>

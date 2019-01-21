@@ -6,7 +6,7 @@ import com.qf.common.fdfs.FastDFSUtils;
 import com.qf.common.util.PropKit;
 import com.qf.manager.pojo.dto.PageRequest;
 import com.qf.manager.pojo.po.User;
-import com.qf.manager.service.UserService;
+
 import org.apache.commons.lang3.StringUtils;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
