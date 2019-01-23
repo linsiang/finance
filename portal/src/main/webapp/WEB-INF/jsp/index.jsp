@@ -13,7 +13,7 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
     <title>缈缈屋旅游网</title>
     <link rel="icon"
-          href="http://d.ifengimg.com/w600/p0.ifengimg.com/pmop/2018/0329/AA288E9EA7251DD53BFFCB0F63BE57F4C5F8A483_size161_w640_h360.gif"
+          href="http://47.110.72.50/group1/M00/00/00/rBCVGVxILQCAfHikAAAGTxd1KLU670.jpg"
           type="image/x-icon"/>
     <meta name="keywords" content=""/>
     <meta name="description"
@@ -37,32 +37,6 @@
 </head>
 <body>
 
-
-<%--<c:forEach begin="0" end="8" items="${list}" var="url" varStatus="i" >--%>
-    <%--${url.url}<br/>--%>
-<%--</c:forEach>--%>
-<%--<br/>--%>
-
-
-
-<%--<c:forEach begin="12" end="16" items="${list}" var="url" varStatus="i" >--%>
-    <%--${url.url}<br/>--%>
-<%--</c:forEach><br/>--%>
-<%--<c:forEach begin="16" end="20" items="${list}" var="url" varStatus="i" >--%>
-    <%--${url.url}<br/>--%>
-<%--</c:forEach><br/>--%>
-<%--<c:forEach begin="20" end="24" items="${list}" var="url" varStatus="i" >--%>
-    <%--${url.url}<br/>--%>
-<%--</c:forEach><br/>--%>
-<%--<c:forEach begin="24" end="28" items="${list}" var="url" varStatus="i" >--%>
-    <%--${url.url}<br/>--%>
-<%--</c:forEach>--%>
-<%--<br/>--%>
-<%--<c:forEach begin="28" end="32" items="${list}" var="url" varStatus="i" >--%>
-    <%--${url.url}<br/>--%>
-<%--</c:forEach>--%>
-
-<!-- ===================== header 2018-12-18 start ===================== -->
 <div id="header" class="header" v='20181218' b='hotels' g='NaN' lg='f'>
 
     <div class="nav_box">
