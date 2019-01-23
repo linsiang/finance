@@ -4,13 +4,15 @@ package com.qf.manager.web;
 import com.qf.common.fdfs.FastDFSFile;
 import com.qf.common.fdfs.FastDFSUtils;
 import com.qf.common.util.PropKit;
-import com.qf.manager.pojo.dto.PageRequest;
-import com.qf.manager.pojo.po.User;
+import com.qf.manager.dao.ShowPicMapper;
 
+
+import com.qf.manager.pojo.po.showPic;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.ibatis.annotations.Param;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -21,10 +23,8 @@ import java.util.Map;
 
 @Controller
 public class ManagerIndexAction {
-
-
-
-
+    @Autowired
+    private ShowPicMapper showPicMapper;
     @ResponseBody
     @PostMapping("/upload")
     public Map<String,Object> upLoadPic(@RequestParam("file") MultipartFile file){
@@ -38,7 +38,9 @@ public class ManagerIndexAction {
            map.put("msg","success");
            Map<String,Object> date = new HashMap();
            date.put("src",basePath+"/"+shortName);
-           System.out.println(basePath+"/"+shortName);
+           String psrc=basePath+"/"+shortName;
+           showPicMapper.addPsrc(psrc);
+          // System.out.println(basePath+"/"+shortName);
            map.put("data",date);
 
        }else{
@@ -55,6 +57,13 @@ public class ManagerIndexAction {
         }
 
         return map;
+    }
+
+    @GetMapping("/showPicture")
+    public String showpic(Model model){
+        List<showPic> picList =  showPicMapper.fondUrl();
+        model.addAttribute("picList",picList);
+        return "showPic" ;
     }
 
 

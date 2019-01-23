@@ -11,7 +11,7 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-    <title>渺渺屋旅游网</title>
+    <title>缈缈屋旅游网</title>
     <link rel="icon"
           href="http://m.elongstatic.com/static/webapp/pc_static/pc_hotel/other/common/pic/favicon.ico?t=201411070740"
           type="image/x-icon"/>
@@ -38,7 +38,29 @@
 <body>
 
 
+<%--<c:forEach begin="0" end="8" items="${list}" var="url" varStatus="i" >--%>
+    <%--${url.url}<br/>--%>
+<%--</c:forEach>--%>
+<%--<br/>--%>
 
+
+
+<%--<c:forEach begin="12" end="16" items="${list}" var="url" varStatus="i" >--%>
+    <%--${url.url}<br/>--%>
+<%--</c:forEach><br/>--%>
+<%--<c:forEach begin="16" end="20" items="${list}" var="url" varStatus="i" >--%>
+    <%--${url.url}<br/>--%>
+<%--</c:forEach><br/>--%>
+<%--<c:forEach begin="20" end="24" items="${list}" var="url" varStatus="i" >--%>
+    <%--${url.url}<br/>--%>
+<%--</c:forEach><br/>--%>
+<%--<c:forEach begin="24" end="28" items="${list}" var="url" varStatus="i" >--%>
+    <%--${url.url}<br/>--%>
+<%--</c:forEach>--%>
+<%--<br/>--%>
+<%--<c:forEach begin="28" end="32" items="${list}" var="url" varStatus="i" >--%>
+    <%--${url.url}<br/>--%>
+<%--</c:forEach>--%>
 
 <!-- ===================== header 2018-12-18 start ===================== -->
 <div id="header" class="header" v='20181218' b='hotels' g='NaN' lg='f'>
@@ -154,7 +176,7 @@
     <!-- banner advInfos start -->
     <div class="banner_wrap">
         <ul class="pic_show">
-            <c:forEach begin="0" end="${list.size()-1}" items="${list}" var="url" varStatus="i" >
+            <c:forEach begin="0" end="7" items="${list}" var="url" varStatus="i" >
 
                 <li style="display: block;"><a href="javascript:;" target="_blank"
                                                style="background:url( ${url.url}) no-repeat center bottom;"></a>
@@ -390,461 +412,119 @@
                 <span>覆盖全球75万家酒店，你想住的，我们都有</span></h2></div><!--国内-->
         <div class=domestic>
             <h3 class=clearfix><em class="more right"></em> <a
-                    class="pr20 left" href="http://hotel.elong.com/"><i class="ei_icon icon06 left pr5"></i>国内</a> <span
-                    class=on>登高踏青</span> <span>小憩温泉</span> <span>天然氧吧</span> <span>草原撒欢</span> <span>小镇时光</span> <span>美食之城</span>
+                    class="pr20 left" href="javascript:;"><i class="ei_icon icon06 left pr5"></i>国内</a> <span
+                    class=on>登高踏青</span> <span>小憩温泉</span> <span>天然氧吧</span>
             </h3>
             <ul class=tab_theme>
-                <li>
-                    <a href="http://hotel.elong.com/huangshan/?aioIndex=-1&amp;aioVal=%E8%BE%93%E5%85%A5%20%E4%BD%8D%E7%BD%AE%20%E9%85%92%E5%BA%97%E5%90%8D%20%E6%88%96%E5%93%81%E7%89%8C"
-                       target=_blank>
-                        <div class=pic_add><img alt=黄山 data-src="static/picture/dgtq-hs.jpg"></div>
-                        <div class=city_name>黄山</div>
-                    </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>春意撩人 登高踏青赏春色</p></div>
-                <li>
-                    <a href="http://hotel.elong.com/emeishan/?aioIndex=-1&amp;aioVal=%E8%BE%93%E5%85%A5%20%E4%BD%8D%E7%BD%AE%20%E9%85%92%E5%BA%97%E5%90%8D%20%E6%88%96%E5%93%81%E7%89%8C"
-                       target=_blank>
-                        <div class=pic_add><img alt=峨眉山 data-src="static/picture/dgtq-ems.jpg">
-                        </div>
-                        <div class=city_name>峨眉山</div>
-                    </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>阳春三月 闻着茶香去峨眉</p></div>
-                <li>
-                    <a href="http://hotel.elong.com/wutaishan/?aioIndex=-1&amp;aioVal=%E8%BE%93%E5%85%A5%20%E4%BD%8D%E7%BD%AE%20%E9%85%92%E5%BA%97%E5%90%8D%20%E6%88%96%E5%93%81%E7%89%8C"
-                       target=_blank>
-                        <div class=pic_add><img alt=五台山 data-src="static/picture/dgtq-wts.jpg">
-                        </div>
-                        <div class=city_name>五台山</div>
-                    </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>迎春 祈福 登五台</p></div>
-                <li>
-                    <a href="http://hotel.elong.com/lushan_jiujiang/?aioIndex=-1&amp;aioVal=%E8%BE%93%E5%85%A5%20%E4%BD%8D%E7%BD%AE%20%E9%85%92%E5%BA%97%E5%90%8D%20%E6%88%96%E5%93%81%E7%89%8C"
-                       target=_blank>
-                        <div class=pic_add><img alt=庐山 data-src="static/picture/dgtq-ls.jpg"></div>
-                        <div class=city_name>庐山</div>
-                    </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>亲近自然 春游庐山</p></div>
-                </li>
+                <c:forEach begin="8" end="11" items="${list}" var="url" varStatus="i" >
+                    <li>
+                        <a href="javascript:;"
+                           target=_blank>
+                            <div class=pic_add><img alt=图片GG了 data-src="${url.url}"></div>
+                            <div class=city_name>${url.pname}</div>
+                        </a>
+                        <div class=mask_num>
+                            <p><span>380</span>家酒店特卖</p></div>
+                        <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
+                            <p>春意撩人 登高踏青赏春色</p></div>
+
+                    </li>
+                </c:forEach>
             </ul>
             <ul style="display: none" class=tab_theme>
-                <li><a href="http://hotel.elong.com/search/list_cn_1101.html?keywords=天目湖温泉" target=_blank>
-                    <div class=pic_add><img alt=江苏天目湖 data-src="static/picture/hbtl-tianmuhu.jpg">
-                    </div>
-                    <div class=city_name>江苏天目湖</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span style="display: none" class=right><b>?</b><em>380</em>起</span>
-                        <p>古树错落 帝王温泉</p></div>
-                <li><a href="http://hotel.elong.com/weihai/" target=_blank>
-                    <div class=pic_add><img alt=威海天沐威海温泉
-                                            data-src="static/picture/hbtl-tianmuweihai.jpg"></div>
-                    <div class=city_name>威海天沐威海温泉</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>森林温泉 草本养生</p></div>
-                <li>
-                    <a href="http://hotel.elong.com/search/list_cn_2011.html?keywords=%E4%B8%AD%E5%B1%B1%E6%B8%A9%E6%B3%89"
-                       target=_blank>
-                        <div class=pic_add><img alt=广东中山温泉
-                                                data-src="static/picture/hbtl-zhongshan.jpg">
-                        </div>
-                        <div class=city_name>广东中山温泉</div>
-                    </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>毗邻港澳 商务养生</p></div>
-                <li><a href="http://hotel.elong.com/dalian/" target=_blank>
-                    <div class=pic_add><img alt=辽宁大连安波温泉 data-src="static/picture/hbtl-anbo.jpg">
-                    </div>
-                    <div class=city_name>辽宁大连安波温泉</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>延年益寿 名誉中外</p></div>
-                </li>
+
+                <c:forEach begin="12" end="15" items="${list}" var="url" varStatus="i" >
+                    <li>
+                        <a href="javascript:;"
+                           target=_blank>
+                            <div class=pic_add><img alt=图片GG了 data-src="${url.url}"></div>
+                            <div class=city_name>${url.pname}</div>
+                        </a>
+                        <div class=mask_num>
+                            <p><span>380</span>家酒店特卖</p></div>
+                        <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
+                            <p>春意撩人 登高踏青赏春色</p></div>
+                    </li>
+                </c:forEach><br/>
             </ul>
             <ul style="display: none" class=tab_theme>
-                <li><a href="http://hotel.elong.com/lhasa/" target=_blank>
-                    <div class=pic_add><img alt=拉萨 data-src="static/picture/hbtl-lasa.jpg"></div>
-                    <div class=city_name>拉萨</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span style="display: none" class=right><b>?</b><em>380</em>起</span>
-                        <p>高原古城 圣山天湖 沁人心脾</p></div>
-                <li><a href="http://hotel.elong.com/dali/" target=_blank>
-                    <div class=pic_add><img alt=大理 data-src="static/picture/hbtl-dali.jpg"></div>
-                    <div class=city_name>大理</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>文献名邦 彩云之南 空谷幽兰</p></div>
-                <li><a href="http://hotel.elong.com/zhoushan/" target=_blank>
-                    <div class=pic_add><img alt=舟山 data-src="static/picture/hbtl-zhoushan.jpg">
-                    </div>
-                    <div class=city_name>舟山</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>东海翡翠 舟山群岛 气候宜人</p></div>
-                <li><a href="http://hotel.elong.com/xiamen/" target=_blank>
-                    <div class=pic_add><img alt=厦门 data-src="static/picture/hbtl-xiamen.jpg">
-                    </div>
-                    <div class=city_name>厦门</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>天风海涛 鼓浪岛屿 鸟语芬芳</p></div>
-                </li>
+
+                <c:forEach begin="16" end="19" items="${list}" var="url" varStatus="i" >
+                    <li>
+                        <a href="javascript:;"
+                           target=_blank>
+                            <div class=pic_add><img alt=图片GG了 data-src="${url.url}"></div>
+                            <div class=city_name>${url.pname}</div>
+                        </a>
+                        <div class=mask_num>
+                            <p><span>380</span>家酒店特卖</p></div>
+                        <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
+                            <p>春意撩人 登高踏青赏春色</p></div>
+
+                    </li>
+                </c:forEach><br/>
             </ul>
-            <ul style="display: none" class=tab_theme>
-                <li><a href="http://hotel.elong.com/xilingol_league/" target=_blank>
-                    <div class=pic_add><img alt=锡林郭勒 data-src="static/picture/cysh-xlgl.jpg">
-                    </div>
-                    <div class=city_name>锡林郭勒</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span style="display: none" class=right><b>?</b><em>380</em>起</span>
-                        <p>草原 牧民 小马驹</p></div>
-                <li><a href="http://hotel.elong.com/bashang/" target=_blank>
-                    <div class=pic_add><img alt=坝上 data-src="static/picture/cysh-bs.jpg"></div>
-                    <div class=city_name>坝上</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>帝都最近的草原</p></div>
-                <li><a href="http://hotel.elong.com/ruoergai/" target=_blank>
-                    <div class=pic_add><img alt=若尔盖 data-src="static/picture/cysh-reg.jpg"></div>
-                    <div class=city_name>若尔盖</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>高原上的绿洲</p></div>
-                <li><a href="http://hotel.elong.com/qilianxian/" target=_blank>
-                    <div class=pic_add><img alt=祁连山 data-src="static/picture/cysh-qls.jpg"></div>
-                    <div class=city_name>祁连山</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>风景如画 醉美祁连山</p></div>
-                </li>
-            </ul>
-            <ul style="display: none" class=tab_theme>
-                <li>
-                    <a href="http://hotel.elong.com/xitang/?aioIndex=-1&amp;aioVal=%E8%BE%93%E5%85%A5%20%E4%BD%8D%E7%BD%AE%20%E9%85%92%E5%BA%97%E5%90%8D%20%E6%88%96%E5%93%81%E7%89%8C"
-                       target=_blank>
-                        <div class=pic_add><img alt=西塘
-                                                data-src="static/picture/termini_t3_xt.jpg"></div>
-                        <div class=city_name>西塘</div>
-                    </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>烟雨长廊 景色好似宣纸画</p></div>
-                <li>
-                    <a href="http://hotel.elong.com/tengchong/?aioIndex=-1&amp;aioVal=%E8%BE%93%E5%85%A5%20%E4%BD%8D%E7%BD%AE%20%E9%85%92%E5%BA%97%E5%90%8D%20%E6%88%96%E5%93%81%E7%89%8C"
-                       target=_blank>
-                        <div class=pic_add><img alt=和顺
-                                                data-src="static/picture/termini_t3_hs.jpg"></div>
-                        <div class=city_name>和顺</div>
-                    </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>古风犹存 如诗如画</p></div>
-                <li>
-                    <a href="http://hotel.elong.com/wuzhen/?aioIndex=-1&amp;aioVal=%E8%BE%93%E5%85%A5%20%E4%BD%8D%E7%BD%AE%20%E9%85%92%E5%BA%97%E5%90%8D%20%E6%88%96%E5%93%81%E7%89%8C"
-                       target=_blank>
-                        <div class=pic_add><img alt=乌镇
-                                                data-src="static/picture/termini_t3_wz.jpg"></div>
-                        <div class=city_name>乌镇</div>
-                    </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>推窗见水 小桥人家</p></div>
-                <li>
-                    <a href="http://hotel.elong.com/pingyao/?aioIndex=-1&amp;aioVal=%E8%BE%93%E5%85%A5%20%E4%BD%8D%E7%BD%AE%20%E9%85%92%E5%BA%97%E5%90%8D%20%E6%88%96%E5%93%81%E7%89%8C"
-                       target=_blank>
-                        <div class=pic_add><img alt=平遥
-                                                data-src="static/picture/termini_t3_py.jpg"></div>
-                        <div class=city_name>平遥</div>
-                    </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>晋商遗风 古城探幽</p></div>
-                </li>
-            </ul>
-            <ul style="display: none" class=tab_theme>
-                <li><a href="http://hotel.elong.com/hongkong" target=_blank>
-                    <div class=pic_add><img alt=香港 data-src="static/picture/termini_t4_xg.jpg">
-                    </div>
-                    <div class=city_name>香港</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>只有想不到，没有找不到</p></div>
-                <li>
-                    <a href="http://hotel.elong.com/chengdu/?aioIndex=-1&amp;aioVal=%E8%BE%93%E5%85%A5%20%E4%BD%8D%E7%BD%AE%20%E9%85%92%E5%BA%97%E5%90%8D%20%E6%88%96%E5%93%81%E7%89%8C"
-                       target=_blank>
-                        <div class=pic_add><img alt=成都
-                                                data-src="static/picture/termini_t4_cd.jpg"></div>
-                        <div class=city_name>成都</div>
-                    </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>不只有火锅，吃是头等事</p></div>
-                <li>
-                    <a href="http://hotel.elong.com/yangzhou/?aioIndex=-1&amp;aioVal=%E8%BE%93%E5%85%A5%20%E4%BD%8D%E7%BD%AE%20%E9%85%92%E5%BA%97%E5%90%8D%20%E6%88%96%E5%93%81%E7%89%8C"
-                       target=_blank>
-                        <div class=pic_add><img alt=扬州
-                                                data-src="static/picture/termini_t4_yz.jpg"></div>
-                        <div class=city_name>扬州</div>
-                    </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>吴侬软语 淮味养人</p></div>
-                <li>
-                    <a href="http://hotel.elong.com/changsha/?aioIndex=-1&amp;aioVal=%E8%BE%93%E5%85%A5%20%E4%BD%8D%E7%BD%AE%20%E9%85%92%E5%BA%97%E5%90%8D%20%E6%88%96%E5%93%81%E7%89%8C"
-                       target=_blank>
-                        <div class=pic_add><img alt=长沙
-                                                data-src="static/picture/termini_t4_cs.jpg"></div>
-                        <div class=city_name>长沙</div>
-                    </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>美食怕不辣，湘味最十足</p></div>
-                </li>
-            </ul>
+
+
         </div><!--国内--><!--国际-->
         <div class="domestic mt20">
             <h3 class=clearfix><em class="more right"></em> <a
                     class="pr20 left" href="http://ihotel.elong.com/"><i class="ei_icon icon062 left pr5"></i>海外</a>
-                <span class=on>文艺清新</span> <span>面朝大海</span> <span>别样建筑</span> <span>浪漫主义</span> <span>魅力都市</span></h3>
+                <span class=on>文艺清新</span> <span>面朝大海</span> <span>别样建筑</span> </h3>
             <ul class=tab_theme>
-                <li><a href="http://ihotel.elong.com/region_178279/" target=_blank>
-                    <div class=pic_add><img alt=伦敦 data-src="static/picture/termini_it1_ld.jpg">
-                    </div>
-                    <div class=city_name>伦敦</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>风情英伦，帝国余韵</p></div>
-                <li><a href="http://ihotel.elong.com/region_890/" target=_blank>
-                    <div class=pic_add><img alt=清迈 data-src="static/picture/termini_it1_qm.jpg">
-                    </div>
-                    <div class=city_name>清迈</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>泰北玫瑰，慢行古城</p></div>
-                <li><a href="http://ihotel.elong.com/region_6049718/" target=_blank>
-                    <div class=pic_add><img alt=济州岛 data-src="static/picture/termini_it1_jzd.jpg">
-                    </div>
-                    <div class=city_name>济州岛</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>最传统的浪漫，最神秘的自然</p></div>
-                <li><a href="http://ihotel.elong.com/region_179899/" target=_blank>
-                    <div class=pic_add><img alt=罗马 data-src="static/picture/termini_it1_lm.jpg">
-                    </div>
-                    <div class=city_name>罗马</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>永恒之城，魅力无限</p></div>
-                </li>
+                <c:forEach begin="20" end="23" items="${list}" var="url" varStatus="i" >
+
+
+                    <li>
+                        <a href="javascript:;"
+                           target=_blank>
+                            <div class=pic_add><img alt=图片GG了 data-src="${url.url}"></div>
+                            <div class=city_name>${url.pname}</div>
+                        </a>
+                        <div class=mask_num>
+                            <p><span>380</span>家酒店特卖</p></div>
+                        <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
+                            <p>春意撩人 登高踏青赏春色</p></div>
+
+                    </li>
+                </c:forEach>
             </ul>
             <ul style="display: none" class=tab_theme>
-                <li><a href="http://ihotel.elong.com/region_6046393/" target=_blank>
-                    <div class=pic_add><img alt=普吉岛 data-src="static/picture/termini_it2_pjd.jpg">
-                    </div>
-                    <div class=city_name>普吉岛</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>海岛胜地，天人合一</p></div>
-                <li><a href="http://ihotel.elong.com/region_6051084/" target=_blank>
-                    <div class=pic_add><img alt=马尔代夫
-                                            data-src="static/picture/termini_it2_medf.jpg"></div>
-                    <div class=city_name>马尔代夫</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>一岛一世界</p></div>
-                <li><a href="http://ihotel.elong.com/region_602/" target=_blank>
-                    <div class=pic_add><img alt=沙巴 data-src="static/picture/termini_it2_sb.jpg">
-                    </div>
-                    <div class=city_name>沙巴</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>纯净之极的原生态梦幻岛屿</p></div>
-                <li><a href="http://ihotel.elong.com/region_180074/" target=_blank>
-                    <div class=pic_add><img alt=夏威夷 data-src="static/picture/termini_it2_xwy.jpg">
-                    </div>
-                    <div class=city_name>夏威夷</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>凝聚着东方妩媚与西方性感</p></div>
-                </li>
+
+
+                <c:forEach begin="24" end="27" items="${list}" var="url" varStatus="i" >
+
+
+                    <li>
+                        <a href="javascript:;"
+                           target=_blank>
+                            <div class=pic_add><img alt=图片GG了 data-src="${url.url}"></div>
+                            <div class=city_name>${url.pname}</div>
+                        </a>
+                        <div class=mask_num>
+                            <p><span>380</span>家酒店特卖</p></div>
+                        <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
+                            <p>春意撩人 登高踏青赏春色</p></div>
+
+                    </li>
+                </c:forEach>
             </ul>
             <ul style="display: none" class=tab_theme>
-                <li><a href="http://ihotel.elong.com/region_179992/" target=_blank>
-                    <div class=pic_add><img alt=巴塞罗那
-                                            data-src="static/picture/termini_it3_bsln.jpg"></div>
-                    <div class=city_name>巴塞罗那</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>天使之城，艺术之都</p></div>
-                <li><a href="http://ihotel.elong.com/region_180012/" target=_blank>
-                    <div class=pic_add><img alt=米兰 data-src="static/picture/termini_it3_ml.jpg">
-                    </div>
-                    <div class=city_name>米兰</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>在时尚与古典间穿梭</p></div>
-                <li><a href="http://ihotel.elong.com/region_178289/" target=_blank>
-                    <div class=pic_add><img alt=莫斯科 data-src="static/picture/termini_it3_msk.jpg">
-                    </div>
-                    <div class=city_name>莫斯科</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>畅饮伏特加的英雄之城</p></div>
-                <li><a href="http://ihotel.elong.com/region_178267/" target=_blank>
-                    <div class=pic_add><img alt=伊斯坦布尔
-                                            data-src="static/picture/termini_it3_ystbe.jpg"></div>
-                    <div class=city_name>伊斯坦布尔</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>古老与现代辉映，东方与西方交融</p></div>
-                </li>
+                <c:forEach begin="28" end="31" items="${list}" var="url" varStatus="i" >
+                    <li>
+                        <a href="javascript:;"
+                           target=_blank>
+                            <div class=pic_add><img alt=图片GG了 data-src="${url.url}"></div>
+                            <div class=city_name>${url.pname}</div>
+                        </a>
+                        <div class=mask_num>
+                            <p><span>380</span>家酒店特卖</p></div>
+                        <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
+                            <p>春意撩人 登高踏青赏春色</p></div>
+                    </li>
+                </c:forEach>
             </ul>
-            <ul style="display: none" class=tab_theme>
-                <li><a href="http://ihotel.elong.com/region_6051084/" target=_blank>
-                    <div class=pic_add><img alt=马尔代夫
-                                            data-src="static/picture/termini_it4_medf.jpg"></div>
-                    <div class=city_name>马尔代夫</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>一岛一世界</p></div>
-                <li><a href="http://ihotel.elong.com/region_1735/" target=_blank>
-                    <div class=pic_add><img alt=圣托里尼
-                                            data-src="static/picture/termini_it4_stln.jpg"></div>
-                    <div class=city_name>圣托里尼</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>蓝白色的人间伊甸园</p></div>
-                <li><a href="http://ihotel.elong.com/region_179898/" target=_blank>
-                    <div class=pic_add><img alt=巴黎 data-src="static/picture/termini_it4_bl.jpg">
-                    </div>
-                    <div class=city_name>巴黎</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>浪漫如斯，热情如是</p></div>
-                <li><a href="http://ihotel.elong.com/region_601680/" target=_blank>
-                    <div class=pic_add><img alt=普罗旺斯
-                                            data-src="static/picture/termini_it4_plws.jpg"></div>
-                    <div class=city_name>普罗旺斯</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>薰衣草之乡</p></div>
-                </li>
-            </ul>
-            <ul style="display: none" class=tab_theme>
-                <li><a href="http://ihotel.elong.com/region_180027/" target=_blank>
-                    <div class=pic_add><img alt=新加坡 data-src="static/picture/termini_it5_xjp.jpg">
-                    </div>
-                    <div class=city_name>新加坡</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>乐享狮城，多彩四季</p></div>
-                <li><a href="http://ihotel.elong.com/region_178229/" target=_blank>
-                    <div class=pic_add><img alt=阿姆斯特丹
-                                            data-src="static/picture/termini_it5_amstd.jpg"></div>
-                    <div class=city_name>阿姆斯特丹</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>郁金香绽放的水都</p></div>
-                <li><a href="http://ihotel.elong.com/region_178280/" target=_blank>
-                    <div class=pic_add><img alt=洛杉矶 data-src="static/picture/termini_it5_lsj.jpg">
-                    </div>
-                    <div class=city_name>洛杉矶</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>好莱坞的风情</p></div>
-                <li><a href="http://ihotel.elong.com/region_180008/" target=_blank>
-                    <div class=pic_add><img alt=吉隆坡 data-src="static/picture/termini_it5_jlp.jpg">
-                    </div>
-                    <div class=city_name>吉隆坡</div>
-                </a>
-                    <div class=mask_num>
-                        <p><span>380</span>家酒店特卖</p></div>
-                    <div class=scale_tour><span class=right><b>?</b><em>380</em>起</span>
-                        <p>双子塔上，气度非凡</p></div>
-                </li>
-            </ul>
+
         </div><!--国际--></div>
 </div>
 <!--termini CMS节点 end-->
@@ -890,44 +570,44 @@
         <div class="pic_rad pt10 clearfix">
             <div class="pic_shaw right">
                 <ul>
-                    <li class=right><a href="http://trip.elong.com/event/nfhotel304/" target=_blank><img
-                            data-src="static/picture/18022801.jpg"></a>
-                        <p><a href="http://trip.elong.com/event/nfhotel304/" target=_blank>再赴婺源油菜花之约</a></p>
+                    <li class=right><a href="javascript:;" target=_blank><img
+                            data-src="http://47.110.72.50/group1/M00/00/00/rBCVGVxH6DeAVIgwAADH-YsGD98590.jpg"></a>
+                        <p><a href="javascript:;" target=_blank>再赴婺源油菜花之约</a></p>
                     </li>
-                    <li class=left><a href="http://trip.elong.com/event/nfhotel303/" target=_blank><img
-                            data-src="static/picture/18022802.jpg"></a>
-                        <p><a href="http://trip.elong.com/event/nfhotel303/" target=_blank>全年旅行月历 四季里的12种玩法</a></p></li>
+                    <li class=left><a href="javascript:;" target=_blank><img
+                            data-src="http://47.110.72.50/group1/M00/00/00/rBCVGVxH6DGAZRFyAACe_wlrQbg945.jpg"></a>
+                        <p><a href="javascript:;" target=_blank>全年旅行月历 四季里的12种玩法</a></p></li>
                 </ul>
             </div>
             <div class=tab_pic_show>
                 <ul>
-                    <li><span class=ei_icon></span><a href="http://trip.elong.com/event/fhotel186/" target=_blank>烟雨江南醉杭州
+                    <li><span class=ei_icon></span><a href="javascript:;" target=_blank>烟雨江南醉杭州
                         正是问茶时</a>
                     </li>
-                    <li class=on><span class=ei_icon></span><a href="http://trip.elong.com/event/fhotel184/"
+                    <li class=on><span class=ei_icon></span><a href="javascript:;"
                                                                target=_blank>无锡鼋头渚的樱舞飞扬</a>
                     </li>
-                    <li><span class=ei_icon></span><a href="http://trip.elong.com/event/fhotel174/" target=_blank>武大樱花
+                    <li><span class=ei_icon></span><a href="javascript:;" target=_blank>武大樱花
                         飞扬校园里的青春</a>
                     </li>
-                    <li><span class=ei_icon></span><a href="http://trip.elong.com/event/fhotel187/" target=_blank>昆明郁金香
+                    <li><span class=ei_icon></span><a href="javascript:;" target=_blank>昆明郁金香
                         赏花何必去荷兰</a></li>
                 </ul>
                 <OL>
-                    <li style="display: none"><a href="http://trip.elong.com/event/fhotel186/" target=_blank><img
-                            alt=烟雨江南醉杭州 正是问茶时 data-src="static/picture/18022803.jpg" width=380
+                    <li style="display: none"><a href="javascript:;" target=_blank><img
+                            alt=烟雨江南醉杭州 正是问茶时 data-src="http://47.110.72.50/group1/M00/00/00/rBCVGVxH5fmAQHD-AADCQX4NqGA621.jpg" width=380
                             height=220></a>
                     </li>
-                    <li style="display: list-item"><a href="http://trip.elong.com/event/fhotel184/" target=_blank><img
-                            alt=无锡鼋头渚的樱舞飞扬 data-src="static/picture/18022804.jpg" width=380
+                    <li style="display: list-item"><a href="javascript:;" target=_blank><img
+                            alt=无锡鼋头渚的樱舞飞扬 data-src="http://47.110.72.50/group1/M00/00/00/rBCVGVxH5f6ACWclAACru6e6NJg028.jpg" width=380
                             height=220></a>
                     </li>
-                    <li style="display: none"><a href="http://trip.elong.com/event/fhotel174/" target=_blank><img
-                            alt=武大樱花 飞扬校园里的青春 data-src="static/picture/18022805.jpg" width=380
+                    <li style="display: none"><a href="javascript:;" target=_blank><img
+                            alt=武大樱花 飞扬校园里的青春 data-src="http://47.110.72.50/group1/M00/00/00/rBCVGVxH5gOAXdXTAACprDAuKoM335.jpg" width=380
                             height=220></a>
                     </li>
-                    <li style="display: none"><a href="http://trip.elong.com/event/fhotel187/" target=_blank><img
-                            alt=昆明郁金香 赏花何必去荷兰 data-src="static/picture/18022806.jpg" width=380
+                    <li style="display: none"><a href="javascript:;" target=_blank><img
+                            alt=昆明郁金香 赏花何必去荷兰 data-src="http://47.110.72.50/group1/M00/00/00/rBCVGVxH5gmARhgeAACPNE4r2GM165.jpg" width=380
                             height=220></a></li>
                 </OL>
             </div>
@@ -1099,17 +779,6 @@ if (s_code) document.write(s_code);</script>
 
 <script>require(['http://www.elongstatic.com/ihotelStatic/js/common_index.js'], function () {
 })</script>
-
 <div class="clear"></div>
-<div class="footer" r="3">
-    <div class="footer_info">
-        <dl>
-
-    </div>
-    <div class="clx"></div>
-
-</div>
-
-
 </body>
 </html>

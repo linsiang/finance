@@ -8,6 +8,11 @@
 <%--存放富文本的容器--%>
 <textarea id="demo" style="display: none;"></textarea>
 
+
+
+
+
+
 <script type="text/javascript" src="${pageContext.request.contextPath}/lib/layui/layui.js" charset="utf-8"></script>
 <script>
     layui.use('layedit',function(){
@@ -20,6 +25,17 @@
             }
         });
     });
+
+
+          $.ajax({
+
+              url:showPicture
+
+
+          });
+
+
+
 </script>
 </body>
 </html>

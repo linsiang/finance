@@ -38,14 +38,15 @@ public class PicUrlServiceImpl  implements PicUrlService {
         logger.error(re.getMessage(),re);
        }
 
-//       fou ze  jiu cong shu ju ku li mian na
-       PicurlExample example = new PicurlExample();
-       PicurlExample.Criteria criteria = example.createCriteria();
-       criteria.andIdEqualTo(id);
-       List<Picurl> list = picurlMapper.selectByExample(example);
-       System.out.println("GG ,-_-| -_-| -__-| -_-| 我没有从缓存中拿到数据 ");
+       //fou ze  jiu cong shu ju ku li mian na
+//       PicurlExample example = new PicurlExample();
+//       PicurlExample.Criteria criteria = example.createCriteria();
+//       criteria.andIdEqualTo(id);
+         List<Picurl>  list = picurlMapper.selectALL();
+         System.out.println("GG ,-_-| -_-| -__-| -_-| 我没有从缓存中拿到数据 ");
 try{
     jedisClient.hset("PIC_LIST",id,JsonUtils.objectToJson(list));
+    System.out.println("添加了一份缓存");
 }catch (RuntimeException e){
     logger.error(e.getMessage(),e);
 }

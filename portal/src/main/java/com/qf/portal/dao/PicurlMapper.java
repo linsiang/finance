@@ -10,7 +10,7 @@ public interface PicurlMapper {
 
     int deleteByExample(PicurlExample example);
 
-    int deleteByPrimaryKey(Integer id);
+    int deleteByPrimaryKey(Integer pid);
 
     int insert(Picurl record);
 
@@ -18,7 +18,7 @@ public interface PicurlMapper {
 
     List<Picurl> selectByExample(PicurlExample example);
 
-    Picurl selectByPrimaryKey(Integer id);
+    Picurl selectByPrimaryKey(Integer pid);
 
     int updateByExampleSelective(@Param("record") Picurl record, @Param("example") PicurlExample example);
 
@@ -27,4 +27,8 @@ public interface PicurlMapper {
     int updateByPrimaryKeySelective(Picurl record);
 
     int updateByPrimaryKey(Picurl record);
+
+    List<Picurl> selectALL();
+
+    List<Picurl> selectById(String id);
 }
