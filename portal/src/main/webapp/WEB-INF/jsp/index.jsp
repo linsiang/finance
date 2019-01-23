@@ -13,11 +13,11 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
     <title>缈缈屋旅游网</title>
     <link rel="icon"
-          href="http://m.elongstatic.com/static/webapp/pc_static/pc_hotel/other/common/pic/favicon.ico?t=201411070740"
+          href="http://d.ifengimg.com/w600/p0.ifengimg.com/pmop/2018/0329/AA288E9EA7251DD53BFFCB0F63BE57F4C5F8A483_size161_w640_h360.gif"
           type="image/x-icon"/>
-    <meta name="keywords" content="酒店,机票,火车票,汽车票,旅行,旅游,攻略"/>
+    <meta name="keywords" content=""/>
     <meta name="description"
-          content="艺龙旅行网是中国领先的在线旅行服务提供商，纳斯达克上市公司(NASDAQ: LONG)。提供全球57万家酒店预订服务，2015年艺龙用户入住了4000万以上的间夜。低价有房保障，到店无房赔付。包含星级酒店、宾馆、快捷酒店、家庭旅馆、公寓、情侣酒店、精品酒店、青年旅舍、主题酒店、客栈、农家乐、温泉酒店。同时提供机票查询、机票预订、火车时刻表查询、高铁火车票预订、汽车票查询和预订等服务。更有丰富的旅游目的地攻略和游记。"/>
+          content="妙妙屋欢迎您!"/>
 
 
     <script type="text/javascript">
@@ -68,45 +68,15 @@
     <div class="nav_box">
         <div id="nav" class="response_wrap3" style="width: 1200px;">
             <ul class="link" id="channelMenu">
-                <li sid="28632"><a href="http://www.elong.com" title="艺龙旅行网" id="nav_home">首页</a></li>
+                <li sid="28632"><a href="index" title="" id="nav_home">缈緲屋首页</a></li>
 
             </ul>
             <div class="account" method="dvAccount"><input type="hidden" id="hidden_memberid_user" value=""/> <input
                     type="hidden" id="hidden_user_name" value=""/>
-                <div class="log" id="user_display_login"><span><a href="https://secure.elong.com/passport/login_cn.html"
+                <div class="log" id="user_display_login"><span><a href="javascript:;"
                                                                   rel="nofollow" rel="nofollow">登录</a></span>|<span><a
-                        href="https://secure.elong.com/passport/register_cn.html?rnd=20190116111331" rel="nofollow"
+                        href="javascript:;" rel="nofollow"
                         rel="nofollow">注册</a> </span></div>  <!--弹出-->
-                <div class="drop_box_log pt" style="display: none" id="div_user_center">
-                    <div class="new_btnLogin"><a href="https://secure.elong.com/passport/login_cn.html" rel="nofollow">登录</a>
-                    </div>
-                    <ul class='clx'>
-                        <li class='icon_d1'><b></b><a
-                                href="http://my.elong.com/hotel/MyHotelOrderList_cn.html?rnd=20190116111331"
-                                rel="nofollow">酒店订单</a></li>
-                        <li class='icon_d2' style="display:none;"><b></b><a
-                                href="http://my.elong.com/GrouponOrder_cn.html?rnd=20190116111331"
-                                rel="nofollow">团购订单</a></li>
-                        <li class='icon_d3'><a href="http://my.elong.com/Flight/FlightOrder_cn.html?rnd=20190116111331"
-                                               rel="nofollow">机票订单</a></li>
-                        <li class='icon_d4'><a href="http://my.elong.com/train/orderlist?rnd=20190116111331"
-                                               rel="nofollow">火车票订单</a></li>
-                        <li class='icon_d5'><b></b><a
-                                href="http://my.elong.com/CashCoupon_cn.html?flag=Cash&rnd=20190116111331"
-                                rel="nofollow">现金账户</a></li>
-                        <li class='icon_d6'><b></b><a href="http://my.elong.com/ly/lyOrderFill?rnd=20190116111331"
-                                                      rel="nofollow">汽车票订单</a></li>
-                        <li class='icon_d7'><b></b><a
-                                href="http://my.elong.com/hotel/hotelfavlist_cn.html?rnd=20190116111331" rel="nofollow">酒店收藏</a>
-                        </li>
-                        <li class='icon_d8'><b style='display: none;' id='comment_notice'>9</b> <a id="n_comment_a"
-                                                                                                   href="http://my.elong.com/Hotel/reviewedorderlist_cn.html?rnd=20190116111331"
-                                                                                                   rel="nofollow">我的点评</a>
-                        </li>
-                        <li class='icon_d9'><b></b><a href="http://my.elong.com/me_personalcenter_cn" rel="nofollow">个人设置</a>
-                        </li>
-                    </ul>
-                </div> <!--弹出 end--> </div>
         </div>
     </div>
     <style type="text/css"> .appWrap {
@@ -412,7 +382,7 @@
                 <span>覆盖全球75万家酒店，你想住的，我们都有</span></h2></div><!--国内-->
         <div class=domestic>
             <h3 class=clearfix><em class="more right"></em> <a
-                    class="pr20 left" href="javascript:;"><i class="ei_icon icon06 left pr5"></i>国内</a> <span
+                    class="pr20 left" href="javascript:;"><i class="ei_icon icon06 left pr5"></i>旅游胜地</a> <span
                     class=on>登高踏青</span> <span>小憩温泉</span> <span>天然氧吧</span>
             </h3>
             <ul class=tab_theme>
@@ -469,8 +439,8 @@
         </div><!--国内--><!--国际-->
         <div class="domestic mt20">
             <h3 class=clearfix><em class="more right"></em> <a
-                    class="pr20 left" href="http://ihotel.elong.com/"><i class="ei_icon icon062 left pr5"></i>海外</a>
-                <span class=on>文艺清新</span> <span>面朝大海</span> <span>别样建筑</span> </h3>
+                    class="pr20 left" href="JavaScript:;"><i class="ei_icon icon062 left pr5"></i>风情万种</a>
+                <span class=on>文艺清新</span> <span>古镇文化</span> <span>别样建筑</span> </h3>
             <ul class=tab_theme>
                 <c:forEach begin="20" end="23" items="${list}" var="url" varStatus="i" >
 
@@ -566,7 +536,7 @@
 <div class="raiders mt20">
     <div class="raiders_wrap wrap1000">
         <div class=title>
-            <h2><a href="http://trip.elong.com/">旅游指南</a></h2></div>
+            <h2><a href="JavaScript:;">旅游指南</a></h2></div>
         <div class="pic_rad pt10 clearfix">
             <div class="pic_shaw right">
                 <ul>
