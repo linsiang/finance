@@ -7,7 +7,7 @@ public class Picurl {
 
     private String url;
 
-    private String desc;
+    private String pdesc;
 
     private String price;
 
@@ -37,12 +37,12 @@ public class Picurl {
         this.url = url == null ? null : url.trim();
     }
 
-    public String getDesc() {
-        return desc;
+    public String getPdesc() {
+        return pdesc;
     }
 
-    public void setDesc(String desc) {
-        this.desc = desc == null ? null : desc.trim();
+    public void setPdesc(String pdesc) {
+        this.pdesc = pdesc;
     }
 
     public String getPrice() {

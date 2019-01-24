@@ -224,9 +224,9 @@
     where pid = #{pid,jdbcType=INTEGER}
   </update>
   <select id="selectALL" resultType="com.qf.portal.pojo.po.Picurl">
-            select * from picurl
+            select pid,id,url,pdesc,price,pname from picurl
   </select>
   <select id="selectById" parameterType="java.lang.String" resultType="com.qf.portal.pojo.po.Picurl">
-    select  * from picurl where id = #{id}
+    select  pid,id,url,pdesc,price,pname from picurl where id = #{id}
   </select>
 </mapper>

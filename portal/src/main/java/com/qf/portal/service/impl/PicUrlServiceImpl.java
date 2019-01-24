@@ -25,9 +25,14 @@ public class PicUrlServiceImpl  implements PicUrlService {
 
     @Override
     public List<Picurl> listUrlById(String id) {
-       try{
+        String fuck  = "PIC_LIST";
+        try{
            //xian cong haun cun limain na ,you jiu zhijie fanhui
-        String pic_list = jedisClient.hget("PIC_LIST",id);
+           //此处调用的方法为jedisClient.hget(String key,String field) ,这里的id其实是字段,并不是想象中的value(坑),f返回的才是value值
+
+           //
+
+           String pic_list = jedisClient.hget(fuck,id);
         if(StrKit.notBlank(pic_list)){
             List<Picurl> picurls = JsonUtils.jsonToList(pic_list,Picurl.class);
             System.out.println("=============>我从缓存中拿了数据");
@@ -45,7 +50,7 @@ public class PicUrlServiceImpl  implements PicUrlService {
          List<Picurl>  list = picurlMapper.selectALL();
          System.out.println("GG ,-_-| -_-| -__-| -_-| 我没有从缓存中拿到数据 ");
 try{
-    jedisClient.hset("PIC_LIST",id,JsonUtils.objectToJson(list));
+    jedisClient.hset(fuck,id,JsonUtils.objectToJson(list));
     System.out.println("添加了一份缓存");
 }catch (RuntimeException e){
     logger.error(e.getMessage(),e);

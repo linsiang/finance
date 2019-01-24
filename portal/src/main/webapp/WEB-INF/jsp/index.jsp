@@ -18,8 +18,6 @@
     <meta name="keywords" content=""/>
     <meta name="description"
           content="妙妙屋欢迎您!"/>
-
-
     <script type="text/javascript">
         var tjObj_rt = new Date();
     </script>
@@ -188,9 +186,11 @@
                                 </dl>
                                 <div class="submit_wrap mt20">
 <span class="search_btn mr10" data-bindid='search'><i
-        class="com_iconsearch"></i>搜索</span>
+        class="com_iconsearch"></i>搜索======</span>
                                     <span class="search_btn mr10 search_btn_on" style="display: none;">搜索中...</span>
                                     <span class="search_map_btn" data-bindid='mapSearch' method="mapsearch"
+
+
                                           action="search"> <i class="com_iconmap"></i>地图搜索</span>
                                 </div>
                             </div>
@@ -362,7 +362,7 @@
             <ul class=tab_theme>
                 <c:forEach begin="8" end="11" items="${list}" var="url" varStatus="i" >
                     <li>
-                        <a href="javascript:;"
+                        <a href="details?pid=${url.pid}"
                            target=_blank>
                             <div class=pic_add><img alt=图片GG了 data-src="${url.url}"></div>
                             <div class=city_name>${url.pname}</div>
@@ -379,7 +379,8 @@
 
                 <c:forEach begin="12" end="15" items="${list}" var="url" varStatus="i" >
                     <li>
-                        <a href="javascript:;"
+                        <%--<a href="pageVo?currentPage=${i.count+page.beginPage-1}">--%>
+                        <a href="details?pid=${url.pid}">
                            target=_blank>
                             <div class=pic_add><img alt=图片GG了 data-src="${url.url}"></div>
                             <div class=city_name>${url.pname}</div>
@@ -395,7 +396,7 @@
 
                 <c:forEach begin="16" end="19" items="${list}" var="url" varStatus="i" >
                     <li>
-                        <a href="javascript:;"
+                        <a href="details?pid=${url.pid}"
                            target=_blank>
                             <div class=pic_add><img alt=图片GG了 data-src="${url.url}"></div>
                             <div class=city_name>${url.pname}</div>
@@ -420,7 +421,7 @@
 
 
                     <li>
-                        <a href="javascript:;"
+                        <a href="details?pid=${url.pid}"
                            target=_blank>
                             <div class=pic_add><img alt=图片GG了 data-src="${url.url}"></div>
                             <div class=city_name>${url.pname}</div>
@@ -440,7 +441,7 @@
 
 
                     <li>
-                        <a href="javascript:;"
+                        <a href="details?pid=${url.pid}"
                            target=_blank>
                             <div class=pic_add><img alt=图片GG了 data-src="${url.url}"></div>
                             <div class=city_name>${url.pname}</div>
@@ -456,7 +457,7 @@
             <ul style="display: none" class=tab_theme>
                 <c:forEach begin="28" end="31" items="${list}" var="url" varStatus="i" >
                     <li>
-                        <a href="javascript:;"
+                        <a href="details?pid=${url.pid}"
                            target=_blank>
                             <div class=pic_add><img alt=图片GG了 data-src="${url.url}"></div>
                             <div class=city_name>${url.pname}</div>
