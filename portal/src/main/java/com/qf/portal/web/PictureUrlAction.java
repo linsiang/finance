@@ -23,6 +23,7 @@ public class PictureUrlAction {
         System.out.println(list.size());
         model.addAttribute("list", list);
         return "index";
+        //dfsfsf
     }
 
  @GetMapping("/details")
