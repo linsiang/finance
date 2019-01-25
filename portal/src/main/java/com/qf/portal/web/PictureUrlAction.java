@@ -9,9 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-
 import java.util.List;
-
 @Controller
 public class PictureUrlAction {
     @Autowired
@@ -41,7 +39,7 @@ public class PictureUrlAction {
         model.addAttribute("list", list);
         return "details";
     }
-
+      //test commit
     @GetMapping("/{page}")
     public String page(@PathVariable String page) {
         return page;
