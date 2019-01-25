@@ -60,4 +60,16 @@ public class Picurl {
     public void setPname(String pname) {
         this.pname = pname == null ? null : pname.trim();
     }
+
+    @Override
+    public String toString() {
+        return "Picurl{" +
+                "pid=" + pid +
+                ", id='" + id + '\'' +
+                ", url='" + url + '\'' +
+                ", pdesc='" + pdesc + '\'' +
+                ", price='" + price + '\'' +
+                ", pname='" + pname + '\'' +
+                '}';
+    }
 }
