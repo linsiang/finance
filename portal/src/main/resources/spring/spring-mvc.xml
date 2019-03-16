@@ -40,5 +40,5 @@
     </bean>
     <!--静态资源放行-->
     <mvc:resources mapping="/static/**" location="/static/"/>
-    <mvc:resources mapping="/details/**" location="/details/"/>
+    <mvc:resources mapping="/Wopop_files/**" location="/Wopop_files/"/>
 </beans>

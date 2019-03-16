@@ -10,7 +10,6 @@
     <!--声明子工程-->
     <modules>
         <module>../commons</module>
-        <module>../manager</module>
         <module>../portal</module>
     </modules>
     <!--打包方式-->
